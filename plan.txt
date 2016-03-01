@@ -1,0 +1,71 @@
+
+1. Introduction
+   (a)  PDF: Introduction to gravitational wave laser interferometry. 
+	     And very briefly: why numerical modelling with Finesse, why PyKat, why notebooks. 
+   (b)  PDF: Installing instructions
+       	- downloading, installing, find online information.
+   (c) Ipython notebook
+           * Basic notebook usage.
+           * After: Have seen how to write code
+		    Have seen how to write markdown
+		    Have seen how to show figures
+		    Have seen how to change colours, fonts etc.
+		    Have seen how to make inline plots
+   (d) PyKat
+       - Motivation, usage
+	   * Facilitate advanced Finesse usage
+           * Python free and open source
+           * Extended to perform computations outside Finesse.
+       - Basic commands
+	   * How to create the kat-object 
+           * Parse Finesse code 
+           * Run the simulation.
+	   * Plot results
+   (e) Finesse
+       - Motivation, usage.
+       - Basic commands, components, nodes
+2. Plane waves
+   (a) Fabry-Perot cavity
+       - Lengths, tunings, and resonance
+	 * Change cavity length
+         * Change cavity tuning
+         * Plot intra-cavity power
+         * After: Know difference between length and tuning
+                  Know the concept of resonance
+       - Free spectral range
+         * Sweep tuning or frequency
+         * Change cavity length, and repeat
+       - Finesse of a cavity
+         * Aim for an intuitive picture in terms of roundtrip loss or Q-value.
+         * FSR/FWHM
+         * Play with reflectivity and cavity lengths.
+         * After: Seen how the length and reflectivity affects the Finesse
+                  Know roughly with which factor a cavity with on resonance 
+		  with a given Finesse amplifies the power/amplitude.
+       - Over coupled, under coupled, and impedance matched.
+   (b) Circular cavity
+   (c) Modulation, demodulation, and optical beats
+       - Phase modulation
+       - Frequency modulation
+       - Amplitude modulation
+       - Optical beat
+       - Demodulation
+   (d) Controlling Fabry-Perot cavity
+       - PDH
+         - Creating an error signal
+         - Optimising the error signal (demodulation phase)
+         - Gain of error signal
+         - Forming locking loop
+   (e) Michelson Interferometer
+       - The beam splitter
+       -
+3. Hermite-Gaussian beams
+   (a) Intro
+   (b) Fabry-Perot cavity
+       - Mirror curvature and stability (definition of g and m values)
+       - Cavity eigenmode
+       - Higher order modes
+       - Cavity scan and the effect of the Gouy-phase
+       - Mode mismatch
+       - Misaligned cavity
+
