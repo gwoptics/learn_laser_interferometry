@@ -1,17 +1,19 @@
 
+Outside files, which should bee seen and read first:
+
+- Intro in PDF: Should explain the aim of this school, which people it is aimed at, why they should look at the material, introduction to gravitational wave laser interferometry. And very briefly answer: why numerical modelling with Finesse? Why PyKat? Why in notebook format?
+
+- Installing instructions in PDF: downloading, installing, find online information.
+
 1. Introduction
-   (a)  PDF: Introduction to gravitational wave laser interferometry. 
-	     And very briefly: why numerical modelling with Finesse, why PyKat, why notebooks. 
-   (b)  PDF: Installing instructions
-       	- downloading, installing, find online information.
-   (c) Ipython notebook
+   (a) Ipython notebook
            * Basic notebook usage.
            * After: Have seen how to write code
 		    Have seen how to write markdown
 		    Have seen how to show figures
 		    Have seen how to change colours, fonts etc.
 		    Have seen how to make inline plots
-   (d) PyKat
+   (b) PyKat
        - Motivation, usage
 	   * Facilitate advanced Finesse usage
            * Python free and open source
@@ -21,9 +23,9 @@
            * Parse Finesse code 
            * Run the simulation.
 	   * Plot results
-   (e) Finesse
+   (c) Finesse introduction
        - Motivation, usage.
-       - Basic commands, components, nodes
+
 2. Plane waves
    (a) Fabry-Perot cavity
        - Lengths, tunings, and resonance
@@ -68,4 +70,15 @@
        - Cavity scan and the effect of the Gouy-phase
        - Mode mismatch
        - Misaligned cavity
+
+A. Finesse componentes
+   (a) Optics
+       - Lasers
+       - Mirrors
+       - Beamsplitters
+       - Photo diode
+       - Amplitude detector
+       - etc.
+B. Finesse commands
+ 
 
