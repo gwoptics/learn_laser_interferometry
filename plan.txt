@@ -71,14 +71,22 @@ Outside files, which should bee seen and read first:
        - Mode mismatch
        - Misaligned cavity
 
+
+Reference chapter
+
 A. Finesse componentes
-   (a) Optics
-       - Lasers
+   (a) Active components
+       - Laser
+   (b) Optics
        - Mirrors
        - Beamsplitters
-       - Photo diode
+       - Lenses
+       - Spaces
+   (c) Detectors
+       - Photo diodes
        - Amplitude detector
-       - etc.
+
 B. Finesse commands
+
  
 
