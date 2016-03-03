@@ -45,13 +45,17 @@ Outside files, which should bee seen and read first:
                   Know roughly with which factor a cavity with on resonance 
 		  with a given Finesse amplifies the power/amplitude.
        - Over coupled, under coupled, and impedance matched.
-   (b) Circular cavity
-   (c) Modulation, demodulation, and optical beats
+   (b) Modulation and optical beats
        - Phase modulation
        - Frequency modulation
        - Amplitude modulation
        - Optical beat
-       - Demodulation
+       - Phase modulation by a moving mirror
+   (c) Demodulation and transfer function
+       - Demodulation: detecting optical beat
+       - Single demodulation
+       - Double demodulation
+       - Transfer function
    (d) Controlling Fabry-Perot cavity
        - PDH
          - Creating an error signal
@@ -59,8 +63,9 @@ Outside files, which should bee seen and read first:
          - Gain of error signal
          - Forming locking loop
    (e) Michelson Interferometer
-       - The beam splitter
        -
+   (f) Circular cavity
+
 3. Hermite-Gaussian beams
    (a) Intro
    (b) Fabry-Perot cavity
