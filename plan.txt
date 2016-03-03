@@ -58,9 +58,9 @@ Outside files, which should bee seen and read first:
        - Transfer function
    (d) Controlling Fabry-Perot cavity
        - PDH
-         - Creating an error signal
-         - Optimising the error signal (demodulation phase)
-         - Gain of error signal
+         - Creating a sensing signal
+         - Optimising the sensing signal
+         - Gain of sensing signal
          - Forming locking loop
    (e) Michelson Interferometer
        -
