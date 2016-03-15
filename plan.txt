@@ -1,9 +1,24 @@
 
-Outside files, which should bee seen and read first:
+* Outside files, which should bee seen and read first:
 
 - Intro in PDF: Should explain the aim of this school, which people it is aimed at, why they should look at the material, introduction to gravitational wave laser interferometry. And very briefly answer: why numerical modelling with Finesse? Why PyKat? Why in notebook format?
 
 - Installing instructions in PDF: downloading, installing, find online information.
+
+* Background “physics” that wee need to cover (i.e. point people to reading material) during the introduction notebooks, or possibly in a PDF-document.
+
+- Frequency domain
+- Complex representation of the electric field
+- Amplitude as sqrt(W)
+- Laser
+  - Coherence
+  - Collimated beam
+  - Monochromatic field or single frequency field
+  - Paraxial approximation
+- Sideband picture
+
+
+* The course
 
 1. Introduction
    (a) Ipython notebook
