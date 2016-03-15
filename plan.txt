@@ -35,8 +35,11 @@ Outside files, which should bee seen and read first:
          * After: Know difference between length and tuning
                   Know the concept of resonance
        - Free spectral range
-         * Sweep tuning or frequency
+         * Sweep laser frequency
          * Change cavity length, and repeat
+	 * Change lambda0 and repeat
+       - Line width
+
        - Finesse of a cavity
          * Aim for an intuitive picture in terms of roundtrip loss or Q-value.
          * FSR/FWHM
@@ -45,26 +48,31 @@ Outside files, which should bee seen and read first:
                   Know roughly with which factor a cavity with on resonance 
 		  with a given Finesse amplifies the power/amplitude.
        - Over coupled, under coupled, and impedance matched.
-   (b) Modulation and optical beats
+   (b) Michelson Interferometer
+       - Lengths and tunings
+       - Mirror asymmetries
+       - Beam splitter asymetries
+   (c) Circular cavity
+   (d) Modulation and optical beats
        - Phase modulation
        - Frequency modulation
        - Amplitude modulation
        - Optical beat
        - Phase modulation by a moving mirror
-   (c) Demodulation and transfer function
+   (e) Demodulation and transfer function
        - Demodulation: detecting optical beat
        - Single demodulation
        - Double demodulation
        - Transfer function
-   (d) Controlling Fabry-Perot cavity
+   (f) Controlling Fabry-Perot cavity
        - PDH
          - Creating a sensing signal
          - Optimising the sensing signal
          - Gain of sensing signal
          - Forming locking loop
-   (e) Michelson Interferometer
+   
        -
-   (f) Circular cavity
+   
 
 3. Hermite-Gaussian beams
    (a) Intro
