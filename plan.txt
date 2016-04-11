@@ -43,31 +43,49 @@
 
 2. Plane waves
    (a) Fabry-Perot cavity
-       - Lengths, tunings, and resonance
-	 * Change cavity length
-         * Change cavity tuning
-         * Plot intra-cavity power
-         * After: Know difference between length and tuning
-                  Know the concept of resonance
-       - Free spectral range
+
+       - Resonance (Missing table of content)
+         * Powers vs. cavity mirror tuning
+	 * Powers vs. cavity space length
+	 * Offset laser freq. and repeat the previous task
+         * After: 
+	   Played with a cavity and the concept of resonance
+	   Experienced difference between length and tuning
+           Experienced how Finesse defines length in terms of phases
+
+       - Free spectral range (Work in progress)
          * Sweep laser frequency
          * Change cavity length, and repeat
 	 * Change lambda0 and repeat
-       - Line width
 
-       - Finesse of a cavity
+       - Line width (Work in progress)
+
+       - Finesse of a cavity (Work in progress)
          * Aim for an intuitive picture in terms of roundtrip loss or Q-value.
          * FSR/FWHM
          * Play with reflectivity and cavity lengths.
          * After: Seen how the length and reflectivity affects the Finesse
                   Know roughly with which factor a cavity with on resonance 
 		  with a given Finesse amplifies the power/amplitude.
-       - Over coupled, under coupled, and impedance matched.
+
+       - Over coupled, under coupled, and impedance matched. (Work in progress)
+
    (b) Michelson Interferometer
-       - Lengths and tunings
-       - Mirror asymmetries
-       - Beam splitter asymetries
+
+       - Arm length difference (Missing table of content)
+	 * Show response to arm length difference in tunings
+	 * Calibrate setup to the dark fringe (initially on bright fringe)
+	 * Offset differential arm tuning to yield 10 mW output.
+	 * Plot power vs. macroscopical arm length difference.
+	 * Change carrier frequency and repeat previous task
+	 * Offset laser freq. and repeat previous task
+
+       - Mirror asymmetries (work in progress)
+	 * Plot Power vs. microscopical arm length difference for different BS asymmetries
+         * Plot Power vs. microscopical arm length difference for different end mirror asymmetries
+
    (c) Circular cavity
+
    (d) Modulation and optical beats
        - Phase modulation
        - Frequency modulation
