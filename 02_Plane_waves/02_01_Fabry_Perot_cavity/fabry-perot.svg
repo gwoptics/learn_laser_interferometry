@@ -12,8 +12,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="336.84531"
-   height="103.43415"
+   width="340.2291"
+   height="99.755516"
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.91 r13725"
@@ -31,9 +31,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6969523"
-     inkscape:cx="177.05675"
-     inkscape:cy="16.846678"
+     inkscape:zoom="1.5795907"
+     inkscape:cx="185.62188"
+     inkscape:cy="36.32824"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      width="1052.3622px"
@@ -61,8 +61,8 @@
     <inkscape:grid
        id="GridFromPre046Settings"
        type="xygrid"
-       originx="4.8637384e-07"
-       originy="-3.2617187e-06"
+       originx="4.8637378e-07"
+       originy="-3.6785554"
        spacingx="0.1mm"
        spacingy="0.1mm"
        color="#0000ff"
@@ -1067,16 +1067,6 @@
        y2="92.333496" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#XMLID_2_"
-       id="linearGradient7448"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.8,0,0,0.8,-34.8284,-61.1108)"
-       x1="44.003899"
-       y1="105.2021"
-       x2="72.350098"
-       y2="76.856003" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient3890"
        id="linearGradient7512"
        gradientUnits="userSpaceOnUse"
@@ -1106,16 +1096,6 @@
        fx="9.5870008"
        fy="8.2452106"
        r="6.7529998" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3622"
-       id="linearGradient7578"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.8,0,0,0.8,-34.8284,-61.1108)"
-       x1="44.537998"
-       y1="112.411"
-       x2="44.537998"
-       y2="81.920998" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3622"
@@ -3495,7 +3475,7 @@
          id="path7492"
          style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(0.6)"
+         transform="scale(0.6,0.6)"
          inkscape:connector-curvature="0" />
     </marker>
     <marker
@@ -3509,9 +3489,46 @@
          id="path7495"
          style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6)"
+         transform="scale(-0.6,-0.6)"
          inkscape:connector-curvature="0" />
     </marker>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#radialGradient5264-3"
+       id="radialGradient7546-4"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.712285,-4.933168e-8,1.318884e-7,2.65854,-16.41568,-15.83199)"
+       cx="9.5870008"
+       cy="8.2452106"
+       fx="9.5870008"
+       fy="8.2452106"
+       r="6.7529998" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       fy="7.4608998"
+       fx="8.8794003"
+       r="17.067101"
+       cy="7.4608998"
+       cx="8.8794003"
+       id="radialGradient5264-3">
+      <stop
+         id="stop5248-3"
+         style="stop-color:#FEDE58"
+         offset="0" />
+      <stop
+         id="stop5250-9"
+         style="stop-color:#BA0000"
+         offset="0.6854" />
+      <a:midPointStop
+         style="stop-color:#FEDE58"
+         offset="0" />
+      <a:midPointStop
+         style="stop-color:#FEDE58"
+         offset="0.5" />
+      <a:midPointStop
+         style="stop-color:#BA0000"
+         offset="0.6854" />
+    </radialGradient>
   </defs>
   <metadata
      id="metadata7">
@@ -3562,7 +3579,7 @@
     <polygon
        style="display:inline;fill:url(#radialGradient4704);fill-opacity:1;stroke:#000000;stroke-width:0.75"
        i:knockout="Off"
-       points="32.266,19.062 32.266,19.062 0.375,37.473 0.375,0.65 "
+       points="32.266,19.062 0.375,37.473 0.375,0.65 32.266,19.062 "
        id="polygon4687"
        transform="translate(1000.9736,788.21393)" />
     <g
@@ -3979,7 +3996,7 @@
         </radialGradient>
         <polygon
            id="polygon5028"
-           points="0.75,19.061 0.75,19.061 32.64,37.471 32.64,0.649 "
+           points="0.75,19.061 32.64,37.471 32.64,0.649 0.75,19.061 "
            i:knockout="Off"
            style="fill:url(#radialGradient5054);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <polyline
@@ -3989,7 +4006,7 @@
            style="fill:none;stroke:#000000;stroke-width:1.5" />
         <polygon
            id="polygon5032"
-           points="18.864,22.159 18.864,22.159 23.748,25.381 18.502,28.258 "
+           points="18.864,22.159 23.748,25.381 18.502,28.258 18.864,22.159 "
            i:knockout="Off" />
       </g>
     </g>
@@ -4032,7 +4049,7 @@
           </radialGradient>
           <polygon
              id="polygon5070"
-             points="32.265,19.062 32.265,19.062 0.375,37.472 0.375,0.649 "
+             points="32.265,19.062 0.375,37.472 0.375,0.649 32.265,19.062 "
              i:knockout="Off"
              style="fill:url(#radialGradient5094);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
           <polyline
@@ -4043,7 +4060,7 @@
         </g>
         <polygon
            id="polygon5074"
-           points="5.698,23.822 5.698,23.822 10.582,27.044 5.335,29.921 "
+           points="5.698,23.822 10.582,27.044 5.335,29.921 5.698,23.822 "
            i:knockout="Off" />
       </g>
     </g>
@@ -4262,7 +4279,7 @@
         </radialGradient>
         <polygon
            id="polygon5485"
-           points="0.75,19.061 0.75,19.061 32.641,37.471 32.641,0.649 "
+           points="0.75,19.061 32.641,37.471 32.641,0.649 0.75,19.061 "
            i:knockout="Off"
            style="fill:url(#radialGradient5520);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <g
@@ -4331,7 +4348,7 @@
         </radialGradient>
         <polygon
            id="polygon5534"
-           points="32.266,19.062 32.266,19.062 0.375,37.472 0.375,0.649 "
+           points="32.266,19.062 0.375,37.472 0.375,0.649 32.266,19.062 "
            i:knockout="Off"
            style="fill:url(#radialGradient5570);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <g
@@ -4645,12 +4662,6 @@
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0" />
     <path
-       style="display:inline;fill:none;stroke:#ff0000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 589.79255,378.93963 -0.27572,70.99086"
-       id="path7454"
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0" />
-    <path
        style="display:inline;fill:none;stroke:#ff0000;stroke-width:4.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 639.10875,407.4684 117.99218,0"
        id="path8637"
@@ -4674,6 +4685,18 @@
        id="path7452"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+       d="m 626.70489,407.54927 c -17.93568,-0.11869 -15.61303,26.77372 -15.06599,40.55501"
+       id="path7454-6"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;stroke:#ff0000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
+       d="m 706.75628,406.87266 c -17.93568,-0.11869 -15.61303,26.77372 -15.06599,40.55501"
+       id="path7454-6-6"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -4681,110 +4704,6 @@
      inkscape:label="Optics"
      style="display:inline"
      transform="translate(-511.51872,-359.53331)">
-    <g
-       style="display:inline"
-       i:rgbTrio="#4F008000FFFF"
-       i:dimmedPercent="50"
-       i:layer="yes"
-       id="g7434"
-       transform="matrix(0,0.75,-0.75,0,598.57745,398.32379)">
-      <g
-         id="g7436">
-        <linearGradient
-           gradientTransform="matrix(0.8,0,0,0.8,-34.8284,-61.1108)"
-           y2="76.856003"
-           x2="72.350098"
-           y1="105.2021"
-           x1="44.003899"
-           gradientUnits="userSpaceOnUse"
-           id="linearGradient7438">
-          <stop
-             id="stop7440"
-             style="stop-color:#FFFFFF"
-             offset="0" />
-          <stop
-             id="stop7442"
-             style="stop-color:#89A4B6"
-             offset="1" />
-          <a:midPointStop
-             style="stop-color:#FFFFFF"
-             offset="0" />
-          <a:midPointStop
-             style="stop-color:#FFFFFF"
-             offset="0.5" />
-          <a:midPointStop
-             style="stop-color:#89A4B6"
-             offset="1" />
-        </linearGradient>
-        <rect
-           id="rect7444"
-           height="22.677"
-           width="22.677"
-           i:knockout="Off"
-           y="0.375"
-           x="0.375"
-           style="fill:url(#linearGradient7448);stroke:#000000;stroke-width:0.75" />
-        <line
-           id="line7446"
-           y2="23.052"
-           x2="23.052"
-           y1="0.375"
-           x1="0.375"
-           i:knockout="Off"
-           style="fill:none;stroke:#000000;stroke-width:0.75" />
-      </g>
-    </g>
-    <g
-       style="display:inline"
-       i:rgbTrio="#4F008000FFFF"
-       i:dimmedPercent="50"
-       i:layer="yes"
-       id="g7532"
-       transform="matrix(0,0.75,-0.75,0,598.36706,450.71246)">
-      <g
-         id="g7534">
-        <radialGradient
-           gradientUnits="userSpaceOnUse"
-           fy="7.4608998"
-           fx="8.8794003"
-           r="17.067101"
-           cy="7.4608998"
-           cx="8.8794003"
-           id="radialGradient7536">
-          <stop
-             id="stop7538"
-             style="stop-color:#FEDE58"
-             offset="0" />
-          <stop
-             id="stop7540"
-             style="stop-color:#BA0000"
-             offset="0.6854" />
-          <a:midPointStop
-             style="stop-color:#FEDE58"
-             offset="0" />
-          <a:midPointStop
-             style="stop-color:#FEDE58"
-             offset="0.5" />
-          <a:midPointStop
-             style="stop-color:#BA0000"
-             offset="0.6854" />
-        </radialGradient>
-        <path
-           id="path7542"
-           d="m 6.044,1.792 c -0.986,0 -1.936,0.148 -2.835,0.417 l 0,19.01 c 0.899,0.268 1.849,0.416 2.835,0.416 5.479,0 9.921,-4.441 9.921,-9.921 0,-5.48 -4.442,-9.922 -9.921,-9.922 l 0,0 z"
-           i:knockout="Off"
-           style="fill:url(#radialGradient7546);fill-opacity:1;stroke:#000000;stroke-width:0.75"
-           inkscape:connector-curvature="0" />
-        <rect
-           id="rect7544"
-           height="22.677999"
-           width="2.835"
-           i:knockout="Off"
-           y="0.375"
-           x="0.375"
-           style="stroke:#000000;stroke-width:0.75" />
-      </g>
-    </g>
     <g
        style="display:inline"
        i:rgbTrio="#4F008000FFFF"
@@ -5060,103 +4979,6 @@
            x="7.4159999"
            style="stroke:#000000;stroke-width:0.75" />
       </g>
-    </g>
-    <g
-       style="display:inline"
-       id="g7548"
-       transform="matrix(0,-0.375,0.375,0,583.58045,381.06561)">
-      <linearGradient
-         id="linearGradient7550"
-         gradientUnits="userSpaceOnUse"
-         x1="55.993198"
-         y1="110.8086"
-         x2="55.993198"
-         y2="81.256798"
-         gradientTransform="matrix(0.8,0,0,0.8,-33.8884,-60.2056)">
-        <stop
-           offset="0"
-           style="stop-color:#FFFFFF"
-           id="stop7552" />
-        <stop
-           offset="0.1314"
-           style="stop-color:#C4C4C4"
-           id="stop7554" />
-        <stop
-           offset="0.3752"
-           style="stop-color:#5C5C5C"
-           id="stop7556" />
-        <stop
-           offset="0.5444"
-           style="stop-color:#1A1A1A"
-           id="stop7558" />
-        <stop
-           offset="0.6236"
-           style="stop-color:#000000"
-           id="stop7560" />
-        <stop
-           offset="0.6657"
-           style="stop-color:#151515"
-           id="stop7562" />
-        <stop
-           offset="0.7529"
-           style="stop-color:#4C4C4C"
-           id="stop7564" />
-        <stop
-           offset="0.8765"
-           style="stop-color:#A2A2A2"
-           id="stop7566" />
-        <stop
-           offset="1"
-           style="stop-color:#FFFFFF"
-           id="stop7568" />
-        <a:midPointStop
-           offset="0"
-           style="stop-color:#FFFFFF" />
-        <a:midPointStop
-           offset="0.4636"
-           style="stop-color:#FFFFFF" />
-        <a:midPointStop
-           offset="0.6236"
-           style="stop-color:#000000" />
-        <a:midPointStop
-           offset="0.5441"
-           style="stop-color:#000000" />
-        <a:midPointStop
-           offset="1"
-           style="stop-color:#FFFFFF" />
-      </linearGradient>
-      <rect
-         style="fill:url(#linearGradient7578);fill-opacity:1;stroke:#000000;stroke-width:0.75"
-         x="1.177"
-         y="4.8010001"
-         i:knockout="Off"
-         width="19.462999"
-         height="23.642"
-         id="rect7570" />
-      <rect
-         style="stroke:#000000"
-         x="0.5"
-         y="0.5"
-         i:knockout="Off"
-         width="2.5699999"
-         height="32.131001"
-         id="rect7572" />
-      <rect
-         style="stroke:#000000"
-         x="6.7849998"
-         y="0.5"
-         i:knockout="Off"
-         width="3.8150001"
-         height="32.131001"
-         id="rect7574" />
-      <rect
-         style="stroke:#000000"
-         x="14.206"
-         y="0.5"
-         i:knockout="Off"
-         width="7.6100001"
-         height="32.131001"
-         id="rect7576" />
     </g>
     <g
        style="display:inline"
@@ -7834,7 +7656,7 @@
         </linearGradient>
         <polygon
            id="polygon4333"
-           points="43.461,14.551 35.808,14.551 35.808,31.557 45.709,31.557 45.709,31.557 48.868,31.557 48.868,31.557 48.868,31.557 58.485,31.557 58.485,14.551 58.485,14.551 50.266,14.551 50.266,14.549 43.461,14.549 "
+           points="58.485,14.551 58.485,14.551 50.266,14.551 50.266,14.549 43.461,14.549 43.461,14.551 35.808,14.551 35.808,31.557 45.709,31.557 45.709,31.557 48.868,31.557 48.868,31.557 48.868,31.557 58.485,31.557 "
            i:knockout="Off"
            style="fill:url(#linearGradient4376);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <linearGradient
@@ -7966,7 +7788,7 @@
         </linearGradient>
         <polygon
            id="polygon4399"
-           points="43.461,14.551 35.808,14.551 35.808,31.557 45.709,31.557 45.709,31.557 48.868,31.557 48.868,31.557 48.868,31.557 58.485,31.557 58.485,14.551 58.485,14.551 50.266,14.551 50.266,14.549 43.461,14.549 "
+           points="58.485,14.551 58.485,14.551 50.266,14.551 50.266,14.549 43.461,14.549 43.461,14.551 35.808,14.551 35.808,31.557 45.709,31.557 45.709,31.557 48.868,31.557 48.868,31.557 48.868,31.557 58.485,31.557 "
            i:knockout="Off"
            style="fill:url(#linearGradient4466);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <linearGradient
@@ -8600,7 +8422,7 @@
       <polygon
          style="fill:url(#linearGradient3672);fill-opacity:1;stroke:#000000;stroke-width:0.75"
          i:knockout="Off"
-         points="10.295,28.722 10.295,0.375 0.375,0.375 0.375,0.375 0.375,2.855 3.918,2.855 3.918,4.981 0.375,4.981 0.375,7.108 3.918,7.108 3.918,9.234 0.375,9.234 0.375,11.36 3.918,11.36 3.918,13.486 0.375,13.486 0.375,15.611 3.918,15.611 3.918,17.738 0.375,17.738 0.375,19.863 3.918,19.863 3.918,19.863 3.918,21.989 0.375,21.989 0.375,24.115 3.918,24.115 3.918,26.241 0.375,26.241 0.375,28.722 "
+         points="3.918,7.108 3.918,9.234 0.375,9.234 0.375,11.36 3.918,11.36 3.918,13.486 0.375,13.486 0.375,15.611 3.918,15.611 3.918,17.738 0.375,17.738 0.375,19.863 3.918,19.863 3.918,19.863 3.918,21.989 0.375,21.989 0.375,24.115 3.918,24.115 3.918,26.241 0.375,26.241 0.375,28.722 10.295,28.722 10.295,0.375 0.375,0.375 0.375,0.375 0.375,2.855 3.918,2.855 3.918,4.981 0.375,4.981 0.375,7.108 "
          id="polygon3653" />
       <rect
          style="stroke:#000000;stroke-width:0.75"
@@ -8761,7 +8583,7 @@
     <polygon
        style="display:inline;fill:url(#linearGradient4037);fill-opacity:1;stroke:#000000;stroke-width:0.75"
        i:knockout="Off"
-       points="5.271,23.053 0.463,0.375 0.463,0.375 0.463,0.375 10.08,0.375 "
+       points="10.08,0.375 5.271,23.053 0.463,0.375 0.463,0.375 0.463,0.375 "
        id="polygon4023"
        transform="translate(341.852,1111.076)" />
     <g
@@ -8996,7 +8818,7 @@
       <polygon
          style="fill:url(#XMLID_9_)"
          i:knockout="Off"
-         points="36.971,7.773 34.612,7.773 34.612,7.773 5.765,7.773 5.765,10.123 34.612,10.123 36.971,10.123 36.971,7.773 "
+         points="34.612,7.773 34.612,7.773 5.765,7.773 5.765,10.123 34.612,10.123 36.971,10.123 36.971,7.773 36.971,7.773 "
          id="polygon4156" />
       <linearGradient
          id="XMLID_10_"
@@ -9064,7 +8886,7 @@
       <polygon
          style="fill:url(#XMLID_10_)"
          i:knockout="Off"
-         points="36.971,10.713 34.612,10.713 34.612,10.713 5.765,10.713 5.765,13.063 34.612,13.063 36.971,13.063 36.971,10.713 "
+         points="34.612,10.713 34.612,10.713 5.765,10.713 5.765,13.063 34.612,13.063 36.971,13.063 36.971,10.713 36.971,10.713 "
          id="polygon4179" />
       <linearGradient
          id="XMLID_11_"
@@ -9132,7 +8954,7 @@
       <polygon
          style="fill:url(#XMLID_11_)"
          i:knockout="Off"
-         points="36.971,13.653 34.612,13.653 34.612,13.653 5.765,13.653 5.765,16.004 34.612,16.004 36.971,16.004 36.971,13.653 "
+         points="34.612,13.653 34.612,13.653 5.765,13.653 5.765,16.004 34.612,16.004 36.971,16.004 36.971,13.653 36.971,13.653 "
          id="polygon4202" />
       <linearGradient
          id="XMLID_12_"
@@ -9200,7 +9022,7 @@
       <polygon
          style="fill:url(#XMLID_12_)"
          i:knockout="Off"
-         points="36.971,16.594 34.612,16.594 34.612,16.594 5.765,16.594 5.765,18.943 34.612,18.943 36.971,18.943 36.971,16.594 "
+         points="34.612,16.594 34.612,16.594 5.765,16.594 5.765,18.943 34.612,18.943 36.971,18.943 36.971,16.594 36.971,16.594 "
          id="polygon4225" />
       <linearGradient
          id="XMLID_13_"
@@ -9268,7 +9090,7 @@
       <polygon
          style="fill:url(#XMLID_13_)"
          i:knockout="Off"
-         points="36.971,19.533 34.612,19.533 34.612,19.533 5.765,19.533 5.765,21.883 34.612,21.883 36.971,21.883 36.971,19.533 "
+         points="34.612,19.533 34.612,19.533 5.765,19.533 5.765,21.883 34.612,21.883 36.971,21.883 36.971,19.533 36.971,19.533 "
          id="polygon4248" />
       <linearGradient
          id="XMLID_14_"
@@ -9336,12 +9158,12 @@
       <polygon
          style="fill:url(#XMLID_14_)"
          i:knockout="Off"
-         points="36.971,22.473 34.612,22.473 34.612,22.473 5.765,22.473 5.765,24.822 34.612,24.822 36.971,24.822 36.971,22.473 "
+         points="34.612,22.473 34.612,22.473 5.765,22.473 5.765,24.822 34.612,24.822 36.971,24.822 36.971,22.473 36.971,22.473 "
          id="polygon4271" />
       <polygon
          style="fill:none;stroke:#000000;stroke-width:0.75"
          i:knockout="Off"
-         points="37.004,7.523 34.641,7.523 34.641,7.523 5.827,7.523 5.827,24.594 34.641,24.594 37.004,24.594 37.004,7.523 "
+         points="34.641,7.523 34.641,7.523 5.827,7.523 5.827,24.594 34.641,24.594 37.004,24.594 37.004,7.523 37.004,7.523 "
          id="polygon4273" />
       <rect
          style="stroke:#000000;stroke-width:0.75"
@@ -9539,7 +9361,7 @@
         </linearGradient>
         <polygon
            id="polygon4487"
-           points="14.548,18.801 14.548,4.627 0.375,4.627 0.375,5.013 14.164,18.801 14.548,18.801 14.548,18.801 "
+           points="0.375,4.627 0.375,5.013 14.164,18.801 14.548,18.801 14.548,18.801 14.548,18.801 14.548,4.627 "
            i:knockout="Off"
            style="fill:url(#linearGradient8904);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <linearGradient
@@ -9570,7 +9392,7 @@
         </linearGradient>
         <polygon
            id="polygon4494"
-           points="37.226,18.801 37.226,4.627 51.397,4.627 51.397,5.013 37.608,18.801 37.226,18.801 37.226,18.801 "
+           points="51.397,4.627 51.397,5.013 37.608,18.801 37.226,18.801 37.226,18.801 37.226,18.801 37.226,4.627 "
            i:knockout="Off"
            style="fill:url(#linearGradient8906);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <linearGradient
@@ -9777,7 +9599,7 @@
       <polygon
          style="opacity:0.5;fill:url(#linearGradient18308);stroke:#000000;stroke-width:0.75"
          i:knockout="Off"
-         points="14.494,54.519 14.494,54.519 7.478,47.504 27.522,27.46 27.522,27.46 34.537,34.476 "
+         points="27.522,27.46 27.522,27.46 34.537,34.476 14.494,54.519 14.494,54.519 7.478,47.504 "
          id="polygon5532" />
       <linearGradient
          id="linearGradient5572"
@@ -9818,7 +9640,7 @@
       <polygon
          style="fill:url(#linearGradient5586);fill-opacity:1;stroke:#000000;stroke-width:0.75"
          i:knockout="Off"
-         points="7.479,7.547 7.479,7.547 14.494,0.531 34.538,20.575 34.538,20.575 27.522,27.59 "
+         points="34.538,20.575 34.538,20.575 27.522,27.59 7.479,7.547 7.479,7.547 14.494,0.531 "
          id="polygon5541" />
       <g
          i:knockout="Off"
@@ -10396,7 +10218,7 @@
            style="fill:none;stroke:#73be1e;stroke-width:2" />
         <polygon
            id="polygon4450"
-           points="26.594,20.395 11.713,11.803 11.713,11.803 11.713,11.803 26.594,3.211 "
+           points="26.594,3.211 26.594,20.395 11.713,11.803 11.713,11.803 11.713,11.803 "
            i:knockout="Off"
            style="fill:#73be1e" />
       </g>
@@ -10641,7 +10463,7 @@
            style="fill:none;stroke:#ff1a00;stroke-width:2" />
         <polygon
            id="polygon4586"
-           points="26.594,20.395 11.712,11.803 11.712,11.803 11.712,11.803 26.594,3.211 "
+           points="26.594,3.211 26.594,20.395 11.712,11.803 11.712,11.803 11.712,11.803 "
            i:knockout="Off"
            style="fill:#ff1a00" />
       </g>
@@ -11164,7 +10986,7 @@
       </linearGradient>
       <polygon
          id="polygon3398"
-         points="23.051,17.383 23.051,0.375 21.334,0.375 21.334,0.375 0.375,0.375 0.375,17.383 21.334,17.383 23.051,17.383 "
+         points="23.051,0.375 21.334,0.375 21.334,0.375 0.375,0.375 0.375,17.383 21.334,17.383 23.051,17.383 23.051,17.383 "
          i:knockout="Off"
          style="fill:url(#linearGradient3412);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
     </g>
@@ -11206,12 +11028,12 @@
       <polygon
          style="fill:url(#radialGradient4011);fill-opacity:1;stroke:#d4496d;stroke-width:1.24020004;stroke-linecap:round;stroke-linejoin:bevel"
          i:knockout="Off"
-         points="4.978,21.247 22.772,34.373 37.309,15.888 37.309,15.888 19.503,2.556 9.086,0.609 0.564,11.566 4.978,21.247 "
+         points="22.772,34.373 37.309,15.888 37.309,15.888 19.503,2.556 9.086,0.609 0.564,11.566 4.978,21.247 4.978,21.247 "
          id="polygon3990" />
       <polygon
          style="clip-rule:evenodd;fill:none;stroke:#d4496d;stroke-width:1.24020004;stroke-linecap:round;stroke-linejoin:bevel"
          i:knockout="Off"
-         points="3.586,18.223 16.179,2.104 16.179,2.104 30.162,25.119 30.162,25.119 "
+         points="30.162,25.119 3.586,18.223 16.179,2.104 16.179,2.104 30.162,25.119 "
          id="polygon3992" />
     </g>
     <g
@@ -11220,7 +11042,7 @@
        i:dimmedPercent="50"
        i:layer="yes"
        id="g5721"
-       transform="rotate(180,333.6558,416.59975)">
+       transform="matrix(-1,0,0,-1,667.3116,833.1995)">
       <g
          id="g5683">
         <rect
@@ -11334,7 +11156,7 @@
        i:dimmedPercent="50"
        i:layer="yes"
        id="g5803"
-       transform="rotate(180,375.50755,416.60025)">
+       transform="matrix(-1,0,0,-1,751.0151,833.2005)">
       <g
          id="g5748">
         <g
@@ -11460,7 +11282,7 @@
            id="g5783">
           <radialGradient
              gradientUnits="userSpaceOnUse"
-             gradientTransform="rotate(-109.52394,-62.317903,196.2182)"
+             gradientTransform="matrix(-0.3342007,-0.94250193,0.94250193,-0.3342007,-268.08062,203.05971)"
              fy="344.48389"
              fx="74.929199"
              r="10.9246"
@@ -11487,7 +11309,7 @@
           </radialGradient>
           <polygon
              id="polygon5790"
-             points="41.397,7.958 33.375,6.892 16.788,12.774 16.788,12.774 22.946,30.139 39.533,24.258 45.091,18.374 41.397,7.958 "
+             points="33.375,6.892 16.788,12.774 16.788,12.774 22.946,30.139 39.533,24.258 45.091,18.374 41.397,7.958 41.397,7.958 "
              i:knockout="Off"
              style="fill:url(#radialGradient5837);fill-opacity:1;stroke:#c28a36;stroke-width:0.75" />
           <line
@@ -11588,7 +11410,7 @@
         </linearGradient>
         <polygon
            id="polygon5949"
-           points="20.574,84.771 0.53,64.727 0.53,64.727 7.547,57.711 7.547,57.711 27.591,77.756 "
+           points="7.547,57.711 7.547,57.711 27.591,77.756 20.574,84.771 0.53,64.727 0.53,64.727 "
            i:knockout="Off"
            style="fill:url(#linearGradient6007);stroke:#000000;stroke-width:0.75" />
         <rect
@@ -11638,7 +11460,7 @@
         </linearGradient>
         <polygon
            id="polygon5960"
-           points="63.024,64.727 42.98,84.771 42.98,84.771 35.965,77.754 35.965,77.754 56.009,57.711 "
+           points="35.965,77.754 35.965,77.754 56.009,57.711 63.024,64.727 42.98,84.771 42.98,84.771 "
            i:knockout="Off"
            style="fill:url(#linearGradient6009);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <rect
@@ -11773,7 +11595,7 @@
         </linearGradient>
         <polygon
            id="polygon6033"
-           points="20.574,91.8 0.53,71.755 0.53,71.755 7.547,64.74 7.547,64.74 27.591,84.785 "
+           points="7.547,64.74 7.547,64.74 27.591,84.785 20.574,91.8 0.53,71.755 0.53,71.755 "
            i:knockout="Off"
            style="fill:url(#linearGradient6094);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <rect
@@ -11823,7 +11645,7 @@
         </linearGradient>
         <polygon
            id="polygon6044"
-           points="63.024,71.755 42.98,91.8 42.98,91.8 35.965,84.783 35.965,84.783 56.009,64.74 "
+           points="35.965,84.783 35.965,84.783 56.009,64.74 63.024,71.755 42.98,91.8 42.98,91.8 "
            i:knockout="Off"
            style="fill:url(#linearGradient6096);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <rect
@@ -11918,7 +11740,7 @@
         <polygon
            style="fill:#ffffff;stroke:#a8ada8"
            i:knockout="Off"
-           points="0.934,57.194 6.604,48.69 6.604,48.69 66.131,48.69 66.131,48.69 71.801,57.194 "
+           points="66.131,48.69 66.131,48.69 71.801,57.194 0.934,57.194 6.604,48.69 6.604,48.69 "
            id="polygon4719" />
         <rect
            style="fill:#a8ada8;stroke:#a8ada8"
@@ -12089,7 +11911,7 @@
            style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round" />
         <polygon
            id="polygon5292"
-           points="10.23,6.412 17.382,15.965 17.382,15.965 3.078,15.965 3.078,15.965 "
+           points="3.078,15.965 10.23,6.412 17.382,15.965 17.382,15.965 3.078,15.965 "
            i:knockout="Off"
            style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round" />
         <line
@@ -12213,7 +12035,7 @@
            style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round" />
         <polygon
            id="polygon5372"
-           points="10.23,6.411 17.382,15.965 17.382,15.965 3.078,15.965 3.078,15.965 "
+           points="3.078,15.965 10.23,6.411 17.382,15.965 17.382,15.965 3.078,15.965 "
            i:knockout="Off"
            style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round" />
         <line
@@ -12493,7 +12315,7 @@
            style="display:inline;fill:url(#linearGradient26052);fill-opacity:1;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            sodipodi:type="star" />
         <rect
-           transform="rotate(90)"
+           transform="matrix(0,1,-1,0,0,0)"
            style="display:inline;fill:url(#linearGradient26054);fill-opacity:1;stroke:#000000;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="rect12330"
            width="13.89317"
@@ -21776,17 +21598,6 @@
          y="383.18811">laser</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:cmr10;-inkscape-font-specification:cmr10;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       x="567.00037"
-       y="428.95474"
-       id="text4099"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4101"
-         x="567.00037"
-         y="428.95474">bs1</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:cmr10;-inkscape-font-specification:cmr10;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#0000ae;fill-opacity:1;stroke:none"
        x="792.48169"
        y="373.5217"
@@ -21796,29 +21607,84 @@
          id="tspan16271"
          x="792.48169"
          y="373.5217">cavity</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       x="603.93341"
-       y="458.00427"
-       id="text4107"><tspan
-         sodipodi:role="line"
-         id="tspan16845"
+    <g
+       id="g7910"
+       transform="translate(22,-4)">
+      <g
+         transform="matrix(0,0.75,-0.75,0,598.36706,450.71246)"
+         id="g7532"
+         i:layer="yes"
+         i:dimmedPercent="50"
+         i:rgbTrio="#4F008000FFFF"
+         style="display:inline;enable-background:new">
+        <g
+           id="g7534">
+          <radialGradient
+             id="radialGradient7536"
+             cx="8.8794003"
+             cy="7.4608998"
+             r="17.067101"
+             fx="8.8794003"
+             fy="7.4608998"
+             gradientUnits="userSpaceOnUse">
+            <stop
+               offset="0"
+               style="stop-color:#FEDE58"
+               id="stop7538" />
+            <stop
+               offset="0.6854"
+               style="stop-color:#BA0000"
+               id="stop7540" />
+            <a:midPointStop
+               offset="0"
+               style="stop-color:#FEDE58" />
+            <a:midPointStop
+               offset="0.5"
+               style="stop-color:#FEDE58" />
+            <a:midPointStop
+               offset="0.6854"
+               style="stop-color:#BA0000" />
+          </radialGradient>
+          <path
+             inkscape:connector-curvature="0"
+             style="fill:url(#radialGradient7546);fill-opacity:1;stroke:#000000;stroke-width:0.75"
+             i:knockout="Off"
+             d="m 6.044,1.792 c -0.986,0 -1.936,0.148 -2.835,0.417 l 0,19.01 c 0.899,0.268 1.849,0.416 2.835,0.416 5.479,0 9.921,-4.441 9.921,-9.921 0,-5.48 -4.442,-9.922 -9.921,-9.922 l 0,0 z"
+             id="path7542" />
+          <rect
+             style="stroke:#000000;stroke-width:0.75"
+             x="0.375"
+             y="0.375"
+             i:knockout="Off"
+             width="2.835"
+             height="22.677999"
+             id="rect7544" />
+        </g>
+      </g>
+      <text
+         id="text4107"
+         y="458.00427"
          x="603.93341"
-         y="458.00427">PD</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:cmr10;-inkscape-font-specification:cmr10;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       x="622.79041"
-       y="459.83929"
-       id="text5897"><tspan
-         sodipodi:role="line"
-         id="tspan5899"
-         x="622.79041"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"
+         sodipodi:linespacing="125%"><tspan
+           y="458.00427"
+           x="603.93341"
+           id="tspan16845"
+           sodipodi:role="line">PD</tspan></text>
+      <text
+         id="text5897"
          y="459.83929"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:cmr10;-inkscape-font-specification:cmr10;text-align:start;writing-mode:lr-tb;text-anchor:start">refl</tspan></text>
+         x="622.79041"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:cmr10;-inkscape-font-specification:cmr10;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"
+         sodipodi:linespacing="125%"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:cmr10;-inkscape-font-specification:cmr10;text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="459.83929"
+           x="622.79041"
+           id="tspan5899"
+           sodipodi:role="line">refl</tspan></text>
+    </g>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:125%;font-family:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
@@ -22559,48 +22425,56 @@
     <text
        sodipodi:linespacing="125%"
        id="text18524"
-       y="391.10577"
-       x="703.75146"
+       y="377.67621"
+       x="711.8092"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:cmr10;-inkscape-font-specification:cmr10;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
        xml:space="preserve"
        inkscape:transform-center-x="15.637485"
        inkscape:transform-center-y="90.421631"><tspan
          sodipodi:role="line"
-         id="tspan16267"
-         x="703.75146"
-         y="391.10577">end mirror, m2</tspan></text>
+         x="711.8092"
+         y="377.67621"
+         id="tspan7897">end mirror </tspan><tspan
+         sodipodi:role="line"
+         x="711.8092"
+         y="392.67621"
+         id="tspan7901">         m2</tspan></text>
     <text
        inkscape:transform-center-y="90.421631"
        inkscape:transform-center-x="15.637485"
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:cmr10;-inkscape-font-specification:cmr10;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
-       x="612.0816"
-       y="428.40622"
+       x="613.4245"
+       y="378.2692"
        id="text16783"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan16787"
-         x="612.0816"
-         y="428.40622">input mirror, m1</tspan></text>
+         x="613.4245"
+         y="378.2692">input mirror </tspan><tspan
+         sodipodi:role="line"
+         x="613.4245"
+         y="393.2692"
+         id="tspan7895">    m1</tspan></text>
     <path
        id="path8669"
-       d="m 650.63264,377.61414 c 42.51968,0 99.2126,0 99.2126,0"
+       d="m 647.94673,398.79811 c 42.51968,0 99.2126,0 99.2126,0"
        style="display:inline;stroke:#000000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart);marker-mid:none;marker-end:url(#Arrow2Mend);enable-background:new"
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0" />
     <text
        sodipodi:linespacing="125%"
        id="text8683"
-       y="374.36722"
-       x="701.92877"
+       y="395.87607"
+       x="691.60388"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:cmr10;-inkscape-font-specification:cmr10;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
        xml:space="preserve"
        inkscape:transform-center-x="15.637485"
        inkscape:transform-center-y="90.421631"><tspan
          id="tspan8685"
          sodipodi:role="line"
-         x="701.92877"
-         y="374.36722">L</tspan></text>
+         x="691.60388"
+         y="395.87607">D</tspan></text>
     <rect
        style="fill:none;stroke:#0000ae;stroke-width:2.05459452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8.21837765, 8.21837765;stroke-dashoffset:0;stroke-opacity:1"
        id="rect16835"
@@ -22610,5 +22484,84 @@
        y="360.56061"
        rx="11.246533"
        ry="11.876229" />
+    <g
+       style="display:inline;enable-background:new"
+       id="g7910-6"
+       transform="translate(102.70791,-3.6786352)">
+      <g
+         transform="matrix(0,0.75,-0.75,0,598.36706,450.71246)"
+         id="g7532-3"
+         i:layer="yes"
+         i:dimmedPercent="50"
+         i:rgbTrio="#4F008000FFFF"
+         style="display:inline;enable-background:new">
+        <g
+           id="g7534-0">
+          <radialGradient
+             id="radialGradient7536-2"
+             cx="8.8794003"
+             cy="7.4608998"
+             r="17.067101"
+             fx="8.8794003"
+             fy="7.4608998"
+             gradientUnits="userSpaceOnUse">
+            <stop
+               offset="0"
+               style="stop-color:#FEDE58"
+               id="stop7538-8" />
+            <stop
+               offset="0.6854"
+               style="stop-color:#BA0000"
+               id="stop7540-8" />
+            <a:midPointStop
+               offset="0"
+               style="stop-color:#FEDE58" />
+            <a:midPointStop
+               offset="0.5"
+               style="stop-color:#FEDE58" />
+            <a:midPointStop
+               offset="0.6854"
+               style="stop-color:#BA0000" />
+          </radialGradient>
+          <path
+             inkscape:connector-curvature="0"
+             style="fill:url(#radialGradient7546-4);fill-opacity:1;stroke:#000000;stroke-width:0.75"
+             i:knockout="Off"
+             d="m 6.044,1.792 c -0.986,0 -1.936,0.148 -2.835,0.417 l 0,19.01 c 0.899,0.268 1.849,0.416 2.835,0.416 5.479,0 9.921,-4.441 9.921,-9.921 0,-5.48 -4.442,-9.922 -9.921,-9.922 l 0,0 z"
+             id="path7542-2" />
+          <rect
+             style="stroke:#000000;stroke-width:0.75"
+             x="0.375"
+             y="0.375"
+             i:knockout="Off"
+             width="2.835"
+             height="22.677999"
+             id="rect7544-9" />
+        </g>
+      </g>
+      <text
+         id="text4107-4"
+         y="458.00427"
+         x="603.93341"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"
+         sodipodi:linespacing="125%"><tspan
+           y="458.00427"
+           x="603.93341"
+           id="tspan16845-8"
+           sodipodi:role="line">PD</tspan></text>
+      <text
+         id="text5897-0"
+         y="459.83929"
+         x="622.79041"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:cmr10;-inkscape-font-specification:cmr10;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"
+         sodipodi:linespacing="125%"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:cmr10;-inkscape-font-specification:cmr10;text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="459.83929"
+           x="622.79041"
+           id="tspan5899-3"
+           sodipodi:role="line">circ</tspan></text>
+    </g>
   </g>
 </svg>
