@@ -1,12 +1,11 @@
-# ifo-modelling-course
-
 * 1 - Introduction
   * 1.1 - Ipython notebook
     * 1.1.1 - [Ipython notebook](https://github.com/gwoptics/learn_laser_interferometry/blob/master/01_Introduction/01_Ipython_notebook/01_Ipython_notebook.ipynb)
   * 1.2 - Finesse
-    * 1.2.1 - [Finesse](https://github.com/gwoptics/learn_laser_interferometry/blob/master/01_Introduction/02_Finesse/01_Finesse.ipynb)
+    * 1.2.1 - [Introduction](https://github.com/gwoptics/learn_laser_interferometry/blob/master/01_Introduction/02_Finesse/01_Introduction.ipynb)
   * 1.3 - Pykat
-    * 1.3.1 - [Pykat](https://github.com/gwoptics/learn_laser_interferometry/blob/master/01_Introduction/03_Pykat/01_Pykat.ipynb)
+    * 1.3.1 - [Introduction](https://github.com/gwoptics/learn_laser_interferometry/blob/master/01_Introduction/03_Pykat/01_Introduction.ipynb)
+    * 1.3.2 - [Plotting Examples](https://github.com/gwoptics/learn_laser_interferometry/blob/master/01_Introduction/03_Pykat/02_Plotting_Examples.ipynb)
 * 2 - Plane waves
   * 2.1 - Fabry Perot cavity
     * 2.1.1 - [Resonance](https://github.com/gwoptics/learn_laser_interferometry/blob/master/02_Plane_waves/01_Fabry_Perot_cavity/01_Resonance.ipynb)
