@@ -1,4 +1,44 @@
 
+---------------------------------------------------------------------------------
+Update 17.04.2016, Andreas
+
+- for self study, course can be downloaded from Github is whatever way
+  Github recommends, we need to provide installation documentation
+	for the steps after the downloads until Finesse, Pykat and the
+  notebooks run
+- for reference don't link to Github pages but to static HTML version of the course
+  hosted on gwoptics.org
+
+Daniel Brown to adapt his TOC script for the course to do the
+following:
+- traverse the course folder tree
+- in each folder look for a Intro.txt file, which is a HTML source
+file for generating a Intro.html file for the subfolder. The Intro.txt
+file would contain the text e.g. a small introduction. The script
+would add the TOC for this folder and subfolders
+- the script would convert all notebooks to HTML (using the CSS and
+HTML template from gwoptics.org)
+- all the output from the script would be written into a HTML folder
+in the repo and committed, this folder would then also be used
+for the static pages hosted on gwoptics.org
+  
+Philip Jones to write PyKat 'nightly test' scripts
+- following the style of the Finesse tests
+- using examples directly from the IPyhton notebooks of the course and
+other examples
+- python files write numeric data into output file, which is compared
+to a numeric reference file (do we need to specific the format?)
+- should be possible to adapt Finesse test scripts for this
+- coverage should include all files form the course so that we
+know if any update to Finesse or Pykat has broken the examples,
+this makes sure that the course always presents a good reference for
+leaning Pykat
+
+
+---------------------------------------------------------------------------------
+
+
+
 * Outside files, which should bee seen and read first:
 
 - Intro in PDF: Should explain the aim of this school, which people it is aimed at, why they should look at the material, introduction to gravitational wave laser interferometry. And very briefly answer: why numerical modelling with Finesse? Why PyKat? Why in notebook format?
