@@ -12,8 +12,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="145.39233"
-   height="139.32541"
+   width="170.84058"
+   height="127.40683"
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.91 r13725"
@@ -33,7 +33,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2.9173107"
      inkscape:cx="82.506393"
-     inkscape:cy="65.800504"
+     inkscape:cy="66.476734"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      width="1052.3622px"
@@ -60,8 +60,8 @@
     <inkscape:grid
        id="GridFromPre046Settings"
        type="xygrid"
-       originx="-23.500002"
-       originy="24.779886"
+       originx="-23.500003"
+       originy="25.456116"
        spacingx="0.1mm"
        spacingy="0.1mm"
        color="#0000ff"
@@ -3823,7 +3823,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
-     transform="translate(-195.04059,-152.92635)">
+     transform="translate(-195.04059,-165.52116)">
     <path
        style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:40, 40;stroke-dashoffset:0;stroke-opacity:1"
        d="m 155.944,770.59448 0,624.00002"
@@ -3845,11 +3845,11 @@
      id="layer5"
      inkscape:label="Electrics"
      style="display:inline"
-     transform="translate(-195.04059,-152.92635)">
+     transform="translate(-195.04059,-165.52116)">
     <polygon
        style="display:inline;fill:url(#radialGradient4704);fill-opacity:1;stroke:#000000;stroke-width:0.75"
        i:knockout="Off"
-       points="0.375,37.473 0.375,0.65 32.266,19.062 32.266,19.062 "
+       points="32.266,19.062 0.375,37.473 0.375,0.65 32.266,19.062 "
        id="polygon4687"
        transform="translate(1000.9736,788.21393)" />
     <g
@@ -4266,7 +4266,7 @@
         </radialGradient>
         <polygon
            id="polygon5028"
-           points="32.64,37.471 32.64,0.649 0.75,19.061 0.75,19.061 "
+           points="0.75,19.061 32.64,37.471 32.64,0.649 0.75,19.061 "
            i:knockout="Off"
            style="fill:url(#radialGradient5054);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <polyline
@@ -4276,7 +4276,7 @@
            style="fill:none;stroke:#000000;stroke-width:1.5" />
         <polygon
            id="polygon5032"
-           points="23.748,25.381 18.502,28.258 18.864,22.159 18.864,22.159 "
+           points="18.864,22.159 23.748,25.381 18.502,28.258 18.864,22.159 "
            i:knockout="Off" />
       </g>
     </g>
@@ -4319,7 +4319,7 @@
           </radialGradient>
           <polygon
              id="polygon5070"
-             points="0.375,37.472 0.375,0.649 32.265,19.062 32.265,19.062 "
+             points="32.265,19.062 0.375,37.472 0.375,0.649 32.265,19.062 "
              i:knockout="Off"
              style="fill:url(#radialGradient5094);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
           <polyline
@@ -4330,7 +4330,7 @@
         </g>
         <polygon
            id="polygon5074"
-           points="10.582,27.044 5.335,29.921 5.698,23.822 5.698,23.822 "
+           points="5.698,23.822 10.582,27.044 5.335,29.921 5.698,23.822 "
            i:knockout="Off" />
       </g>
     </g>
@@ -4549,7 +4549,7 @@
         </radialGradient>
         <polygon
            id="polygon5485"
-           points="32.641,37.471 32.641,0.649 0.75,19.061 0.75,19.061 "
+           points="0.75,19.061 32.641,37.471 32.641,0.649 0.75,19.061 "
            i:knockout="Off"
            style="fill:url(#radialGradient5520);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <g
@@ -4618,7 +4618,7 @@
         </radialGradient>
         <polygon
            id="polygon5534"
-           points="0.375,37.472 0.375,0.649 32.266,19.062 32.266,19.062 "
+           points="32.266,19.062 0.375,37.472 0.375,0.649 32.266,19.062 "
            i:knockout="Off"
            style="fill:url(#radialGradient5570);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <g
@@ -4924,7 +4924,7 @@
      id="layer3"
      inkscape:label="Laser beams"
      style="display:inline"
-     transform="translate(-195.04059,-152.92635)">
+     transform="translate(-195.04059,-165.52116)">
     <g
        id="g8231"
        transform="translate(0.97165563,-0.51417218)">
@@ -5104,7 +5104,7 @@
      id="layer4"
      inkscape:label="Optics"
      style="display:inline"
-     transform="translate(-195.04059,-152.92635)">
+     transform="translate(-195.04059,-165.52116)">
     <g
        style="display:inline"
        i:rgbTrio="#4F008000FFFF"
@@ -7781,7 +7781,7 @@
         </linearGradient>
         <polygon
            id="polygon4333"
-           points="58.485,14.551 50.266,14.551 50.266,14.549 43.461,14.549 43.461,14.551 35.808,14.551 35.808,31.557 45.709,31.557 45.709,31.557 48.868,31.557 48.868,31.557 48.868,31.557 58.485,31.557 58.485,14.551 "
+           points="43.461,14.549 43.461,14.551 35.808,14.551 35.808,31.557 45.709,31.557 45.709,31.557 48.868,31.557 48.868,31.557 48.868,31.557 58.485,31.557 58.485,14.551 58.485,14.551 50.266,14.551 50.266,14.549 "
            i:knockout="Off"
            style="fill:url(#linearGradient4376);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <linearGradient
@@ -7913,7 +7913,7 @@
         </linearGradient>
         <polygon
            id="polygon4399"
-           points="58.485,14.551 50.266,14.551 50.266,14.549 43.461,14.549 43.461,14.551 35.808,14.551 35.808,31.557 45.709,31.557 45.709,31.557 48.868,31.557 48.868,31.557 48.868,31.557 58.485,31.557 58.485,14.551 "
+           points="43.461,14.549 43.461,14.551 35.808,14.551 35.808,31.557 45.709,31.557 45.709,31.557 48.868,31.557 48.868,31.557 48.868,31.557 58.485,31.557 58.485,14.551 58.485,14.551 50.266,14.551 50.266,14.549 "
            i:knockout="Off"
            style="fill:url(#linearGradient4466);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <linearGradient
@@ -8547,7 +8547,7 @@
       <polygon
          style="fill:url(#linearGradient3672);fill-opacity:1;stroke:#000000;stroke-width:0.75"
          i:knockout="Off"
-         points="3.918,9.234 0.375,9.234 0.375,11.36 3.918,11.36 3.918,13.486 0.375,13.486 0.375,15.611 3.918,15.611 3.918,17.738 0.375,17.738 0.375,19.863 3.918,19.863 3.918,19.863 3.918,21.989 0.375,21.989 0.375,24.115 3.918,24.115 3.918,26.241 0.375,26.241 0.375,28.722 10.295,28.722 10.295,0.375 0.375,0.375 0.375,0.375 0.375,2.855 3.918,2.855 3.918,4.981 0.375,4.981 0.375,7.108 3.918,7.108 "
+         points="3.918,11.36 3.918,13.486 0.375,13.486 0.375,15.611 3.918,15.611 3.918,17.738 0.375,17.738 0.375,19.863 3.918,19.863 3.918,19.863 3.918,21.989 0.375,21.989 0.375,24.115 3.918,24.115 3.918,26.241 0.375,26.241 0.375,28.722 10.295,28.722 10.295,0.375 0.375,0.375 0.375,0.375 0.375,2.855 3.918,2.855 3.918,4.981 0.375,4.981 0.375,7.108 3.918,7.108 3.918,9.234 0.375,9.234 0.375,11.36 "
          id="polygon3653" />
       <rect
          style="stroke:#000000;stroke-width:0.75"
@@ -8708,7 +8708,7 @@
     <polygon
        style="display:inline;fill:url(#linearGradient4037);fill-opacity:1;stroke:#000000;stroke-width:0.75"
        i:knockout="Off"
-       points="5.271,23.053 0.463,0.375 0.463,0.375 0.463,0.375 10.08,0.375 "
+       points="0.463,0.375 10.08,0.375 5.271,23.053 0.463,0.375 0.463,0.375 "
        id="polygon4023"
        transform="translate(341.852,1111.076)" />
     <g
@@ -8943,7 +8943,7 @@
       <polygon
          style="fill:url(#XMLID_9_)"
          i:knockout="Off"
-         points="34.612,7.773 5.765,7.773 5.765,10.123 34.612,10.123 36.971,10.123 36.971,7.773 36.971,7.773 34.612,7.773 "
+         points="34.612,10.123 36.971,10.123 36.971,7.773 36.971,7.773 34.612,7.773 34.612,7.773 5.765,7.773 5.765,10.123 "
          id="polygon4156" />
       <linearGradient
          id="XMLID_10_"
@@ -9011,7 +9011,7 @@
       <polygon
          style="fill:url(#XMLID_10_)"
          i:knockout="Off"
-         points="34.612,10.713 5.765,10.713 5.765,13.063 34.612,13.063 36.971,13.063 36.971,10.713 36.971,10.713 34.612,10.713 "
+         points="34.612,13.063 36.971,13.063 36.971,10.713 36.971,10.713 34.612,10.713 34.612,10.713 5.765,10.713 5.765,13.063 "
          id="polygon4179" />
       <linearGradient
          id="XMLID_11_"
@@ -9079,7 +9079,7 @@
       <polygon
          style="fill:url(#XMLID_11_)"
          i:knockout="Off"
-         points="34.612,13.653 5.765,13.653 5.765,16.004 34.612,16.004 36.971,16.004 36.971,13.653 36.971,13.653 34.612,13.653 "
+         points="34.612,16.004 36.971,16.004 36.971,13.653 36.971,13.653 34.612,13.653 34.612,13.653 5.765,13.653 5.765,16.004 "
          id="polygon4202" />
       <linearGradient
          id="XMLID_12_"
@@ -9147,7 +9147,7 @@
       <polygon
          style="fill:url(#XMLID_12_)"
          i:knockout="Off"
-         points="34.612,16.594 5.765,16.594 5.765,18.943 34.612,18.943 36.971,18.943 36.971,16.594 36.971,16.594 34.612,16.594 "
+         points="34.612,18.943 36.971,18.943 36.971,16.594 36.971,16.594 34.612,16.594 34.612,16.594 5.765,16.594 5.765,18.943 "
          id="polygon4225" />
       <linearGradient
          id="XMLID_13_"
@@ -9215,7 +9215,7 @@
       <polygon
          style="fill:url(#XMLID_13_)"
          i:knockout="Off"
-         points="34.612,19.533 5.765,19.533 5.765,21.883 34.612,21.883 36.971,21.883 36.971,19.533 36.971,19.533 34.612,19.533 "
+         points="34.612,21.883 36.971,21.883 36.971,19.533 36.971,19.533 34.612,19.533 34.612,19.533 5.765,19.533 5.765,21.883 "
          id="polygon4248" />
       <linearGradient
          id="XMLID_14_"
@@ -9283,12 +9283,12 @@
       <polygon
          style="fill:url(#XMLID_14_)"
          i:knockout="Off"
-         points="34.612,22.473 5.765,22.473 5.765,24.822 34.612,24.822 36.971,24.822 36.971,22.473 36.971,22.473 34.612,22.473 "
+         points="34.612,24.822 36.971,24.822 36.971,22.473 36.971,22.473 34.612,22.473 34.612,22.473 5.765,22.473 5.765,24.822 "
          id="polygon4271" />
       <polygon
          style="fill:none;stroke:#000000;stroke-width:0.75"
          i:knockout="Off"
-         points="34.641,7.523 5.827,7.523 5.827,24.594 34.641,24.594 37.004,24.594 37.004,7.523 37.004,7.523 34.641,7.523 "
+         points="34.641,24.594 37.004,24.594 37.004,7.523 37.004,7.523 34.641,7.523 34.641,7.523 5.827,7.523 5.827,24.594 "
          id="polygon4273" />
       <rect
          style="stroke:#000000;stroke-width:0.75"
@@ -9486,7 +9486,7 @@
         </linearGradient>
         <polygon
            id="polygon4487"
-           points="0.375,5.013 14.164,18.801 14.548,18.801 14.548,18.801 14.548,18.801 14.548,4.627 0.375,4.627 "
+           points="14.548,18.801 14.548,18.801 14.548,4.627 0.375,4.627 0.375,5.013 14.164,18.801 14.548,18.801 "
            i:knockout="Off"
            style="fill:url(#linearGradient8904);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <linearGradient
@@ -9517,7 +9517,7 @@
         </linearGradient>
         <polygon
            id="polygon4494"
-           points="51.397,5.013 37.608,18.801 37.226,18.801 37.226,18.801 37.226,18.801 37.226,4.627 51.397,4.627 "
+           points="37.226,18.801 37.226,18.801 37.226,4.627 51.397,4.627 51.397,5.013 37.608,18.801 37.226,18.801 "
            i:knockout="Off"
            style="fill:url(#linearGradient8906);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <linearGradient
@@ -9724,7 +9724,7 @@
       <polygon
          style="opacity:0.5;fill:url(#linearGradient18308);stroke:#000000;stroke-width:0.75"
          i:knockout="Off"
-         points="27.522,27.46 34.537,34.476 14.494,54.519 14.494,54.519 7.478,47.504 27.522,27.46 "
+         points="14.494,54.519 7.478,47.504 27.522,27.46 27.522,27.46 34.537,34.476 14.494,54.519 "
          id="polygon5532" />
       <linearGradient
          id="linearGradient5572"
@@ -9765,7 +9765,7 @@
       <polygon
          style="fill:url(#linearGradient5586);fill-opacity:1;stroke:#000000;stroke-width:0.75"
          i:knockout="Off"
-         points="34.538,20.575 27.522,27.59 7.479,7.547 7.479,7.547 14.494,0.531 34.538,20.575 "
+         points="7.479,7.547 14.494,0.531 34.538,20.575 34.538,20.575 27.522,27.59 7.479,7.547 "
          id="polygon5541" />
       <g
          i:knockout="Off"
@@ -10343,7 +10343,7 @@
            style="fill:none;stroke:#73be1e;stroke-width:2" />
         <polygon
            id="polygon4450"
-           points="26.594,20.395 11.713,11.803 11.713,11.803 11.713,11.803 26.594,3.211 "
+           points="11.713,11.803 26.594,3.211 26.594,20.395 11.713,11.803 11.713,11.803 "
            i:knockout="Off"
            style="fill:#73be1e" />
       </g>
@@ -10588,7 +10588,7 @@
            style="fill:none;stroke:#ff1a00;stroke-width:2" />
         <polygon
            id="polygon4586"
-           points="26.594,20.395 11.712,11.803 11.712,11.803 11.712,11.803 26.594,3.211 "
+           points="11.712,11.803 26.594,3.211 26.594,20.395 11.712,11.803 11.712,11.803 "
            i:knockout="Off"
            style="fill:#ff1a00" />
       </g>
@@ -11111,7 +11111,7 @@
       </linearGradient>
       <polygon
          id="polygon3398"
-         points="21.334,0.375 21.334,0.375 0.375,0.375 0.375,17.383 21.334,17.383 23.051,17.383 23.051,17.383 23.051,0.375 "
+         points="0.375,17.383 21.334,17.383 23.051,17.383 23.051,17.383 23.051,0.375 21.334,0.375 21.334,0.375 0.375,0.375 "
          i:knockout="Off"
          style="fill:url(#linearGradient3412);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
     </g>
@@ -11153,12 +11153,12 @@
       <polygon
          style="fill:url(#radialGradient4011);fill-opacity:1;stroke:#d4496d;stroke-width:1.24020004;stroke-linecap:round;stroke-linejoin:bevel"
          i:knockout="Off"
-         points="37.309,15.888 37.309,15.888 19.503,2.556 9.086,0.609 0.564,11.566 4.978,21.247 4.978,21.247 22.772,34.373 "
+         points="9.086,0.609 0.564,11.566 4.978,21.247 4.978,21.247 22.772,34.373 37.309,15.888 37.309,15.888 19.503,2.556 "
          id="polygon3990" />
       <polygon
          style="clip-rule:evenodd;fill:none;stroke:#d4496d;stroke-width:1.24020004;stroke-linecap:round;stroke-linejoin:bevel"
          i:knockout="Off"
-         points="3.586,18.223 16.179,2.104 16.179,2.104 30.162,25.119 30.162,25.119 "
+         points="30.162,25.119 30.162,25.119 3.586,18.223 16.179,2.104 16.179,2.104 "
          id="polygon3992" />
     </g>
     <g
@@ -11434,7 +11434,7 @@
           </radialGradient>
           <polygon
              id="polygon5790"
-             points="16.788,12.774 16.788,12.774 22.946,30.139 39.533,24.258 45.091,18.374 41.397,7.958 41.397,7.958 33.375,6.892 "
+             points="39.533,24.258 45.091,18.374 41.397,7.958 41.397,7.958 33.375,6.892 16.788,12.774 16.788,12.774 22.946,30.139 "
              i:knockout="Off"
              style="fill:url(#radialGradient5837);fill-opacity:1;stroke:#c28a36;stroke-width:0.75" />
           <line
@@ -11535,7 +11535,7 @@
         </linearGradient>
         <polygon
            id="polygon5949"
-           points="7.547,57.711 27.591,77.756 20.574,84.771 0.53,64.727 0.53,64.727 7.547,57.711 "
+           points="0.53,64.727 0.53,64.727 7.547,57.711 7.547,57.711 27.591,77.756 20.574,84.771 "
            i:knockout="Off"
            style="fill:url(#linearGradient6007);stroke:#000000;stroke-width:0.75" />
         <rect
@@ -11585,7 +11585,7 @@
         </linearGradient>
         <polygon
            id="polygon5960"
-           points="35.965,77.754 56.009,57.711 63.024,64.727 42.98,84.771 42.98,84.771 35.965,77.754 "
+           points="42.98,84.771 42.98,84.771 35.965,77.754 35.965,77.754 56.009,57.711 63.024,64.727 "
            i:knockout="Off"
            style="fill:url(#linearGradient6009);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <rect
@@ -11720,7 +11720,7 @@
         </linearGradient>
         <polygon
            id="polygon6033"
-           points="7.547,64.74 27.591,84.785 20.574,91.8 0.53,71.755 0.53,71.755 7.547,64.74 "
+           points="0.53,71.755 0.53,71.755 7.547,64.74 7.547,64.74 27.591,84.785 20.574,91.8 "
            i:knockout="Off"
            style="fill:url(#linearGradient6094);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <rect
@@ -11770,7 +11770,7 @@
         </linearGradient>
         <polygon
            id="polygon6044"
-           points="35.965,84.783 56.009,64.74 63.024,71.755 42.98,91.8 42.98,91.8 35.965,84.783 "
+           points="42.98,91.8 42.98,91.8 35.965,84.783 35.965,84.783 56.009,64.74 63.024,71.755 "
            i:knockout="Off"
            style="fill:url(#linearGradient6096);fill-opacity:1;stroke:#000000;stroke-width:0.75" />
         <rect
@@ -11865,7 +11865,7 @@
         <polygon
            style="fill:#ffffff;stroke:#a8ada8"
            i:knockout="Off"
-           points="66.131,48.69 71.801,57.194 0.934,57.194 6.604,48.69 6.604,48.69 66.131,48.69 "
+           points="6.604,48.69 6.604,48.69 66.131,48.69 66.131,48.69 71.801,57.194 0.934,57.194 "
            id="polygon4719" />
         <rect
            style="fill:#a8ada8;stroke:#a8ada8"
@@ -12036,7 +12036,7 @@
            style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round" />
         <polygon
            id="polygon5292"
-           points="10.23,6.412 17.382,15.965 17.382,15.965 3.078,15.965 3.078,15.965 "
+           points="3.078,15.965 3.078,15.965 10.23,6.412 17.382,15.965 17.382,15.965 "
            i:knockout="Off"
            style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round" />
         <line
@@ -12160,7 +12160,7 @@
            style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round" />
         <polygon
            id="polygon5372"
-           points="10.23,6.411 17.382,15.965 17.382,15.965 3.078,15.965 3.078,15.965 "
+           points="3.078,15.965 3.078,15.965 10.23,6.411 17.382,15.965 17.382,15.965 "
            i:knockout="Off"
            style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round" />
         <line
@@ -22025,7 +22025,7 @@
      id="layer2"
      inkscape:label="Text"
      style="display:inline"
-     transform="translate(-195.04059,-152.92635)">
+     transform="translate(-195.04059,-165.52116)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:125%;font-family:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
