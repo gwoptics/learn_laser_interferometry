@@ -48,13 +48,12 @@ try:
                 
                 os.chdir(os.path.join(docwd, path))
                 subprocess.call(["jupyter", "nbconvert", f, "--to", "HTML", "--template", "web.tpl"])
-                os.chdir(wd)
                 
                 # clean up
-                os.remove(os.path.join(docwd, path, f))
-                os.remove(os.path.join(docwd, path, "web.tpl"))
-        
-        
-
+                os.remove("web.tpl")
+                os.remove(f)
+                
+                os.chdir(wd)
+                
 finally:
     os.chdir(cwd)
