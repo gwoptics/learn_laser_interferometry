@@ -10,7 +10,7 @@ cwd = os.getcwd()
 
 stamp = datetime.datetime.now().strftime("%Y_%M_%d_%H:%M:%S")
 
-docwd = os.path.join(cwd, "doc")
+docwd = os.path.join(cwd, "html")
 
 template = os.path.join(cwd, "web.tpl")
 
