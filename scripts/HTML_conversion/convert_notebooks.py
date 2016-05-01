@@ -102,10 +102,12 @@ try:
                 
                 # clean up
                 os.remove(f)
+        
+        os.remove(os.path.join(docwd, "web_changed.tpl"))
                 
         os.chdir(wd)
         
-        #os.remove(os.path.join(docwd, "web_changed.tpl"))
+        
                 
 finally:
     os.chdir(cwd)
