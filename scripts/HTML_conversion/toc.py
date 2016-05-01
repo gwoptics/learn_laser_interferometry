@@ -17,24 +17,26 @@ def get_toc():
     chapter_paths = [folder for folder in os.listdir() if p.match(folder)]
 
     for chapter in chapter_paths:
-        os.chdir(chapter)
+        if os.path.isdir(chapter):
+            os.chdir(chapter)
     
-        cname = clean_name(chapter)
+            cname = clean_name(chapter)
     
-        toc[cname] = OrderedDict()
+            toc[cname] = OrderedDict()
     
-        section_paths = [folder for folder in os.listdir() if p.match(folder)]
+            section_paths = [folder for folder in os.listdir() if p.match(folder)]
     
-        for section in section_paths:
-            os.chdir(section)
-        
-            sname = clean_name(section)
-        
-            toc[cname][sname] = [clean_name(folder) for folder in os.listdir() if p.match(folder)]
-        
+            for section in section_paths:
+                if os.path.isdir(section):
+                    os.chdir(section)
+    
+                    sname = clean_name(section)
+    
+                    toc[cname][sname] = [clean_name(folder) for folder in os.listdir() if p.match(folder)]
+    
+                    os.chdir("..")
+    
             os.chdir("..")
-    
-        os.chdir("..")
         
     return toc
     
