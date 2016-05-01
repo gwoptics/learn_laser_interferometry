@@ -103,7 +103,8 @@ try:
                 # clean up
                 os.remove(f)
         
-        os.remove(os.path.join(docwd, "web_changed.tpl"))
+        if os.path.exists(os.path.join(docwd, "web_changed.tpl")):
+            os.remove(os.path.join(docwd, "web_changed.tpl"))
                 
         os.chdir(wd)
         
