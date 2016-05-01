@@ -300,6 +300,9 @@ div.prompt { display: none;}
 	<li><a target="_blank" href="http://www.gwoptics.org/pykat">PyKat Main Page</a></li>
 	<li class="sep"><a target="_blank" href="http://www.gwoptics.org/simtools">Simtools (Matlab)</a></li>
 	<li><a target="_blank" href="http://www.gwoptics.org/ComponentLibrary">ComponentLibrary</a></li>
+    <li class="sep"> <a>IFO Tutorials</a>
+        %%%%TOC_REPLACE%%%%
+    </li>
 </ul>
 </li>
 <li><a target="_blank" title="Games and applets made with Processing" href="http://www.gwoptics.org/processing/">Play</a>

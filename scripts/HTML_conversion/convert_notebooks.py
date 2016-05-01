@@ -3,6 +3,9 @@ import datetime
 import shutil
 import re
 import subprocess
+import fileinput
+import sys
+import toc
 
 p = re.compile("^\d{2}_")
 
@@ -21,6 +24,46 @@ os.mkdir(docwd)
 
 ignore = [".git", ".ipynb_checkpoints", "scripts"]
 
+def make_toc(wdir, relpath):
+    def doc_path(i, chapter, j, section, k, notebook):
+    
+        chapter = chapter.replace(" ", "_")
+        section = section.replace(" ", "_")
+        notebook = notebook.replace(" ", "_")
+    
+        path = os.path.join(relpath, "{i:02d}_{chapter}/{j:02d}_{section}/{k:02d}_{notebook}.html")
+    
+        return path.format(i=i, j=j, k=k, chapter=chapter, section=section, notebook=notebook)
+        
+    cwd = os.getcwd()
+    os.chdir(wdir)
+    
+    _toc = toc.get_toc()
+
+    rtn = ""
+    rtn += "<ul>"
+    
+    for i, chapter in enumerate(_toc):
+        i += 1
+        rtn += " <li>{0} - {1}".format(i, chapter)
+        rtn += "  <ul>"
+        for j, section in enumerate(_toc[chapter]):
+            j += 1
+            rtn += "   <li>{0} - {1}".format(j, section)
+            rtn += "    <ul>"
+            for k, notebook in enumerate(_toc[chapter][section]):
+                k += 1
+                path = doc_path(i, chapter, j, section, k, notebook)
+                rtn += "      <li><a href={2}>{0} - {1}</a></li> ".format(k, notebook, path)
+                
+            rtn += "    </ul>"    
+        rtn += "   </li>"
+        rtn += "  </ul>"
+        rtn += " </li>"
+    rtn += "</ul>"      
+    
+    os.chdir(cwd)
+    return rtn
 try:
     os.chdir("../../")
 
@@ -37,23 +80,32 @@ try:
             continue
         
         os.mkdir(os.path.join(docwd, path))
+
+        os.chdir(os.path.join(docwd, path))
+        
+        with open("web_changed.tpl", "w") as ofile:
+            with fileinput.FileInput(template) as ifile:
+                for line in ifile:
+                    if line.strip() == "%%%%TOC_REPLACE%%%%":
+                        ofile.write(make_toc(cwd, os.path.relpath(docwd)))
+                    else:
+                        ofile.write(line)
         
         for f in files:
             if not f.endswith(".ipynb"):
-                shutil.copy(os.path.join(path, f), os.path.join(docwd, path, f))
+                shutil.copy(os.path.join(wd, path, f), ".")
             else:
                 # convert notebook to HTML
-                shutil.copy(os.path.join(path, f), os.path.join(docwd, path, f))
-                shutil.copy(template, os.path.join(docwd, path, "web.tpl"))
+                shutil.copy(os.path.join(wd, path, f), ".")
                 
-                os.chdir(os.path.join(docwd, path))
-                subprocess.call(["jupyter", "nbconvert", f, "--to", "HTML", "--template", "web.tpl"])
+                subprocess.call(["jupyter", "nbconvert", f, "--to", "HTML", "--template", "web_changed.tpl"])
                 
                 # clean up
-                os.remove("web.tpl")
                 os.remove(f)
                 
-                os.chdir(wd)
+        os.chdir(wd)
+        
+        #os.remove(os.path.join(docwd, "web_changed.tpl"))
                 
 finally:
     os.chdir(cwd)

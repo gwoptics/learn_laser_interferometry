@@ -1,24 +1,14 @@
-def toc():
+def get_toc():
     import re
     import os
     import collections
     from collections import OrderedDict
     from os import path
     
-    os.chdir("..")
+    os.chdir("../../") # relative path to start of document
     
     clean_name = lambda x: x[3:].replace("_", " ").replace(".ipynb", "")
-
-    def github_path(i, chapter, j, section, k, notebook):
     
-        chapter = chapter.replace(" ", "_")
-        section = section.replace(" ", "_")
-        notebook = notebook.replace(" ", "_")
-    
-        path = "https://github.com/gwoptics/learn_laser_interferometry/blob/master/{i:02d}_{chapter}/{j:02d}_{section}/{k:02d}_{notebook}.ipynb"
-    
-        return path.format(i=i, j=j, k=k, chapter=chapter, section=section, notebook=notebook)
-
     # check first two are digits
     p = re.compile("^\d{2}_")
 
@@ -45,6 +35,19 @@ def toc():
             os.chdir("..")
     
         os.chdir("..")
+        
+    return toc
+    
+def print_github_toc(toc):    
+    def github_path(i, chapter, j, section, k, notebook):
+    
+        chapter = chapter.replace(" ", "_")
+        section = section.replace(" ", "_")
+        notebook = notebook.replace(" ", "_")
+    
+        path = "https://github.com/gwoptics/learn_laser_interferometry/blob/master/{i:02d}_{chapter}/{j:02d}_{section}/{k:02d}_{notebook}.ipynb"
+    
+        return path.format(i=i, j=j, k=k, chapter=chapter, section=section, notebook=notebook)
     
     for i, chapter in enumerate(toc):
         i += 1
@@ -62,4 +65,5 @@ def toc():
             
             
 if __name__ == "__main__":
-    toc()
+    toc = get_toc()
+    print_github_toc(toc)
