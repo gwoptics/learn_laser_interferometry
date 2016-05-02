@@ -1,11 +1,10 @@
-def get_toc(path=""):
+
+def get_toc():
 	import re
 	import os
 	import collections
 	from collections import OrderedDict
 	from os import path
-	
-	os.chdir(os.path.join("../../",path)) # relative path to start of document
 	
 	clean_name = lambda x: x[3:].replace("_", " ").replace(".ipynb", "")
 	

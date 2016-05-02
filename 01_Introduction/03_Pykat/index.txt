@@ -1,6 +1,4 @@
-
-
-Testing
+TESTING
 
 
 %%%%TOC_REPLACE%%%%
