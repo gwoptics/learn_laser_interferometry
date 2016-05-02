@@ -20,7 +20,7 @@
 #gwheader {
     width: 920px;
     margin: 0 auto;
-		height: 52px;
+		height: 30px;
 }
 
 #gwpage {
@@ -31,7 +31,6 @@
 }
 
 h1.course-title {
-    font-family: Georgia, "Times New Roman", Times, serif;
 		margin-left: 10px;
 		margin-top: -10px;
 		margin-bottom: -10px;
@@ -40,7 +39,6 @@ h1.course-title {
 
 #gwmenu {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-		font-size: 14px;
     float: left;
     width: 920px;
     height: 52px;
@@ -81,6 +79,8 @@ h1.course-title {
 
 #gwmenu ul ul
 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:15px;
 	display:none;
 	position:absolute;
 	top:100%;
@@ -92,7 +92,7 @@ h1.course-title {
 #gwmenu ul ul li
 {
 	float:none;
-	width:200px;
+	width:300px;
 	color:#000;
 }
 
@@ -119,22 +119,18 @@ h1.course-title {
 }
 
 #gwmenu ul a { 
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     display: block;
     padding: 0 50px;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 13px;
     color: #0F0F0F;
 		border: none;
 }
 
 #gwmenu ul ul a { 
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-decoration: none;
     text-transform: none;
 		text-align: left;
-    font-size: 13px;
     color: #0F0F0F;
 		border: none;
 }
@@ -145,13 +141,11 @@ h1.course-title {
 }
 
 #gwmenu a.last {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     display: block;
     padding: 0px 10px;
     background: none;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 13px;
     color: #FFFFFF;
 }
 
@@ -259,8 +253,8 @@ body {
     margin: 0;
     padding: 0;
 		background: #98A1AA url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wgARCAC0AB4DAREAAhEBAxEB/8QAGgABAQEBAQEBAAAAAAAAAAAAAAMBBAIICf/EABYBAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAAB/dhIAkkAc4AIAA5gAc4AIgAiADnABAGAmACADTYpBpskgCYAJqAElADAATNMBoAPAAPKdbjB9IqAH//EABcQAQEBAQAAAAAAAAAAAAAAABEAIFD/2gAIAQEAAQUCZmcszMzMzMzMzMzMzMzMzMzMzMzMzMzM8n//xAAdEQADAAICAwAAAAAAAAAAAAAAARIRIRAgMEBQ/9oACAEDAQE/AaKKK+S9C2NYJHsWhvJXhkkkn1c8UV1//8QAFBEBAAAAAAAAAAAAAAAAAAAAYP/aAAgBAgEBPwE5/8QAFBABAAAAAAAAAAAAAAAAAAAAYP/aAAgBAQAGPwI5/8QAIhAAAQQCAgMAAwAAAAAAAAAAAAERcfAh0YHhECCxMFGh/9oACAEBAAE/IZEiRIdB0HQdB9TsfU7H1Ox9TskSJEiRIkSHVUHVUHVUHVUJfCXwl8JfDkcjkciRIkS8HVPO/wDf87Krj6nY+p2SJEiXqDqOo6jqPc7Hudj3Ox7nY9zse52Pc7Hud+roOg6Dp+F1HUdR18vc6Hudev8A/9oADAMBAAIAAwAAABCSQAAAAACSSSQAAACSQSSAC2QkAAAAAACSQACCQAAACkAAD//EABwRAQADAAIDAAAAAAAAAAAAABEAAXEgMEBQUf/aAAgBAwEBPxDExMTHqaIWUQkArNSyQlkjAATHTqamprxaVgS7Ku/kxMcf/8QAFBEBAAAAAAAAAAAAAAAAAAAAYP/aAAgBAgEBPxA5/8QAJhAAAQMDBAEEAwAAAAAAAAAAAAERoVFh0XGR4fDxIDGBsSFBwf/aAAgBAQABPxB1EDqIHUQOogvQuC9C4L0LgvQuC5AXIC5AXIDs3B2bg7Nwdm4GVSMqkZVIyqTS6WNLpY0uljS6WGeOQzxyGeOQzxyNe7k17uTXu5Ne7kZVIyqRlUjKpEWqsirsgqFV04Dr7IOvsgqiN7NCSgRaftdsi5AXIB1EDqIHUQOog0TwaJ4NE8GieC9CYL0JgvQmC9CYHdUHdUHdUHdUHdUHdUHdUHdUHWq7qOtV3Udaruo61XdT5vjJrJqmC9C4L0LgZq7qv2oz+VT6GS+65GS+659N6EwXoTBehMF6EwIq/l0Ztf6iHfZV+kHUB1PSf//Z) repeat-x left top; 
-    font-size: 14px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+		font-family: 'Open Sans', sans-serif;
     text-align: justify;
     color: #3C3C3C;
 }
@@ -290,30 +284,29 @@ div.prompt { display: none;}
 <div id="gwheader">
 <div id="gwmenu">
 <ul>
-<li><a target="_blank" title="gwoptics start page" href="http://www.gwoptics.org">Home</a></li>
-<li><a target="_blank" title="Simple introduction to gravitational wave detectors"
-			 href="http://www.gwoptics.org/ebook/">GW EBook</a></li>
-<li><a target="_blank" title="Optical simulations and software tools" href="http://www.gwoptics.org/research/">Simulations</a>
-<ul>
-	<li class="sep"><a target="_blank" href="http://www.gwoptics.org/finesse/reference">Finesse Syntax</a></li>
-	<li class="sep"><a target="_blank" href="http://www.gwoptics.org/finesse">Finesse Main Page</a></li>
-	<li><a target="_blank" href="http://www.gwoptics.org/pykat">PyKat Main Page</a></li>
-	<li class="sep"><a target="_blank" href="http://www.gwoptics.org/simtools">Simtools (Matlab)</a></li>
-	<li><a target="_blank" href="http://www.gwoptics.org/ComponentLibrary">ComponentLibrary</a></li>
-    <li class="sep"> <a>IFO Tutorials</a>
-        %%%%TOC_REPLACE%%%%
-    </li>
-</ul>
+<li><a title="gwoptics start page" href="/">Home</a></li>
+<li><a title="Online material to learn laser interferometry"
+			 href="">Learn</a>
+ %%%%TOC_REPLACE%%%%
 </li>
-<li><a target="_blank" title="Games and applets made with Processing" href="http://www.gwoptics.org/processing/">Play</a>
+<li><a title="Games and apps for science outreach" href="/play/">Play</a>
 <ul>
 	<li class="sep"><a target="_blank" href="https://www.laserlabs.org">Laser Labs</a></li>
 	<li class="sep"><a target="_blank" href="https://www.laserlabs.org/pocketblackhole.php">Pocket Black Hole</a></li>
 	<li><a target="_blank" href="https://www.laserlabs.org/stretchandsquash.php">Stretch and Squash</a></li>
-	<li class="sep"><a target="_blank"  href="http://www.gwoptics.org/processing/space_time_quest/">Space Time Quest</a></li>
+	<li class="sep"><a href="/processing/space_time_quest/">Space Time Quest</a></li>
 	<li><a target="_blank" href="https://www.laserlabs.org/blackholemaster.php">Black
 	Hole Master</a></li>
-	<li class="sep"><a target="_blank" href="http://www.gwoptics.org/processing">Processing Sketches</a></li>
+	<li class="sep"><a href="/processing">Processing Sketches</a></li>
+</ul>
+</li>
+<li><a title="Optical simulations and software tools" href="/research/">Simulations</a>
+<ul>
+	<li class="sep"><a href="/finesse">Finesse Main Page</a></li>
+	<li><a href="/finesse/reference">Finesse Syntax</a></li>
+	<li class="sep"><a href="/pykat">PyKat Main Page</a></li>
+	<li class="sep"><a href="/simtools">Simtools (Matlab)</a></li>
+	<li><a href="/ComponentLibrary">ComponentLibrary</a></li>
 </ul>
 </li>
 <li><a target="_blank" title="Contact and license information" href="http://www.gwoptics.org/contact/">Contact</a></li>

@@ -25,15 +25,24 @@ os.mkdir(docwd)
 ignore = [".git", ".ipynb_checkpoints", "scripts"]
 
 def make_toc(wdir, relpath):
-    def doc_path(i, chapter, j, section, k, notebook):
+    def doc_path(i, chapter, j=None, section=None, k=None, notebook=None):
     
         chapter = chapter.replace(" ", "_")
-        section = section.replace(" ", "_")
-        notebook = notebook.replace(" ", "_")
-    
-        path = os.path.join(relpath, "{i:02d}_{chapter}/{j:02d}_{section}/{k:02d}_{notebook}.html")
-    
-        return path.format(i=i, j=j, k=k, chapter=chapter, section=section, notebook=notebook)
+        if section !=None:
+            section = section.replace(" ", "_")
+        if notebook !=None:
+            notebook = notebook.replace(" ", "_")
+
+        if notebook != None:
+            path = os.path.join(relpath, "{i:02d}_{chapter}/{j:02d}_{section}/{k:02d}_{notebook}.html")
+            return path.format(i=i, j=j, k=k, chapter=chapter, section=section, notebook=notebook)
+        else:
+            if section != None:
+                path = os.path.join(relpath, "{i:02d}_{chapter}/{j:02d}_{section}/")
+                return path.format(i=i, j=j, chapter=chapter, section=section)
+            else:
+                path = os.path.join(relpath, "{i:02d}_{chapter}/")
+                return path.format(i=i, chapter=chapter)
         
     cwd = os.getcwd()
     os.chdir(wdir)
@@ -45,17 +54,19 @@ def make_toc(wdir, relpath):
     
     for i, chapter in enumerate(_toc):
         i += 1
-        rtn += " <li>{0} - {1}".format(i, chapter)
+        path = doc_path(i, chapter)
+        rtn += " <li class=\"sep\"><a href={2}>{0} - {1}</a>".format(i, chapter, path)
         rtn += "  <ul>"
         for j, section in enumerate(_toc[chapter]):
             j += 1
-            rtn += "   <li>{0} - {1}".format(j, section)
+            path = doc_path(i, chapter, j, section)
+            rtn += "   <li class=\"sep\"><a href={2}>{0} - {1}</a>".format(j, section, path)
             rtn += "    <ul>"
-            for k, notebook in enumerate(_toc[chapter][section]):
-                k += 1
-                path = doc_path(i, chapter, j, section, k, notebook)
-                rtn += "      <li><a href={2}>{0} - {1}</a></li> ".format(k, notebook, path)
-                
+            #for k, notebook in enumerate(_toc[chapter][section]):
+            #    k += 1
+            #    path = doc_path(i, chapter, j, section, k, notebook)
+            #    rtn += "      <li><a href={2}>{0} - {1}</a></li> ".format(k, notebook, path)
+            #    
             rtn += "    </ul>"    
         rtn += "   </li>"
         rtn += "  </ul>"
@@ -98,7 +109,8 @@ try:
                 # convert notebook to HTML
                 shutil.copy(os.path.join(wd, path, f), ".")
                 
-                subprocess.call(["jupyter", "nbconvert", f, "--to", "HTML", "--template", "web_changed.tpl"])
+                #subprocess.call(["jupyter", "nbconvert", f, "--to", "HTML", "--template", "web_changed.tpl"])
+                subprocess.call(["jupyter-nbconvert-3.4", f, "--to", "HTML", "--template", "web_changed.tpl"])
                 
                 # clean up
                 os.remove(f)
