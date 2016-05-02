@@ -1,12 +1,5 @@
-{%- extends 'basic.tpl' -%}
-{% from 'mathjax.tpl' import mathjax %}
-
-<!DOCTYPE html>
-<html>
-<head>
-{%- block header -%}
 <meta charset="utf-8" />
-<title>{{resources['metadata']['name']}} | Learn Laser Interferometry</title>
+<title>04_Modulation_by_moving_mirror | Learn Laser Interferometry</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -24,7 +17,7 @@
 }
 
 #gwpage {
-    width: 920px;
+    width: 900px;
     background: #FFFFFF;
 		margin: 0px auto;
     border: 10px #FFFFFF solid;
@@ -42,8 +35,8 @@ h1.course-title {
 #gwmenu {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     float: left;
-    width: 920px;
-    height: 52px;
+    width: 900px;
+    height: 32px;
 		background: #dbdbdb;
     border: 10px #FFFFFF solid;
 }
@@ -244,11 +237,7 @@ h1.course-title {
 }
 </style>
 
-{% for css in resources.inlining.css -%}
-    <style type="text/css">
-    {{ css }}
-    </style>
-{% endfor %}
+
 
 <style type="text/css">
 body {
@@ -264,16 +253,6 @@ body {
 div.prompt { display: none;}
 </style>
 
-
-<!-- Loading mathjax macro -->
-{{ mathjax() }}
-
-{%- endblock header -%}
-</head>
-
-
-<body>
-{% block body %}
 <div id="gwwrapper">
 
 <div id="gwlogo">
@@ -286,29 +265,29 @@ div.prompt { display: none;}
 <div id="gwheader">
 <div id="gwmenu">
 <ul>
-<li><a title="gwoptics start page" href="/">Home</a></li>
+<li><a title="gwoptics start page" href="http://www.gwoptics.org/">Home</a></li>
 <li><a title="Online material to learn laser interferometry"
 			 href="">Learn</a>
- %%%%TOC_REPLACE%%%%
+			  %%%%TOC_REPLACE%%%%
 </li>
-<li><a title="Games and apps for science outreach" href="/play/">Play</a>
+<li><a title="Games and apps for science outreach" href="http://www.gwoptics.org/play/">Play</a>
 <ul>
 	<li class="sep"><a target="_blank" href="https://www.laserlabs.org">Laser Labs</a></li>
 	<li class="sep"><a target="_blank" href="https://www.laserlabs.org/pocketblackhole.php">Pocket Black Hole</a></li>
 	<li><a target="_blank" href="https://www.laserlabs.org/stretchandsquash.php">Stretch and Squash</a></li>
-	<li class="sep"><a href="/processing/space_time_quest/">Space Time Quest</a></li>
+	<li class="sep"><a href="http://www.gwoptics.org/processing/space_time_quest/">Space Time Quest</a></li>
 	<li><a target="_blank" href="https://www.laserlabs.org/blackholemaster.php">Black
 	Hole Master</a></li>
-	<li class="sep"><a href="/processing">Processing Sketches</a></li>
+	<li class="sep"><a href="http://www.gwoptics.org/processing">Processing Sketches</a></li>
 </ul>
 </li>
-<li><a title="Optical simulations and software tools" href="/research/">Simulations</a>
+<li><a title="Optical simulations and software tools" href="http://www.gwoptics.org/research/">Simulations</a>
 <ul>
-	<li class="sep"><a href="/finesse">Finesse Main Page</a></li>
-	<li><a href="/finesse/reference">Finesse Syntax</a></li>
-	<li class="sep"><a href="/pykat">PyKat Main Page</a></li>
-	<li class="sep"><a href="/simtools">Simtools (Matlab)</a></li>
-	<li><a href="/ComponentLibrary">ComponentLibrary</a></li>
+	<li class="sep"><a href="http://www.gwoptics.org/finesse">Finesse Main Page</a></li>
+	<li><a href="http://www.gwoptics.org/finesse/reference">Finesse Syntax</a></li>
+	<li class="sep"><a href="http://www.gwoptics.org/pykat">PyKat Main Page</a></li>
+	<li class="sep"><a href="http://www.gwoptics.org/simtools">Simtools (Matlab)</a></li>
+	<li><a href="http://www.gwoptics.org/ComponentLibrary">ComponentLibrary</a></li>
 </ul>
 </li>
 <li><a target="_blank" title="Contact and license information" href="http://www.gwoptics.org/contact/">Contact</a></li>
@@ -324,19 +303,4 @@ div.prompt { display: none;}
 <div id="gwpage">
 <h1 class="course-title">Course: Learn Laser Interferometry</h1>
 <hr />
-{{ super() }}
 
-
-<div style="clear: both;">&nbsp;</div>
-<div id="gwfooter">
-<p id="gwlegal">&copy; Andreas Freise 2009 onwards. The css design is based on a free template from <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
-</div>
-</div>
- 
-{%- endblock body %}
-</body>
-
-
-{% block footer %}
-</html>
-{% endblock footer %}
