@@ -1,6 +1,11 @@
-
-
-Testing
+In a Michelson interferometer an incoming laser beam is split into two
+parts by a
+beam splitter. The now two beams propagate along two perpendicular
+arms, each ending with a mirror. The beam are reflected back
+towards the beam splitter where the two beams are
+recombined. Depending on the length difference of the arms, the beams
+either enhance or attenuate each other. The Michelson interferometer
+is one of the best length measurement devices known by mankind. 
 
 
 %%%%TOC_REPLACE%%%%
