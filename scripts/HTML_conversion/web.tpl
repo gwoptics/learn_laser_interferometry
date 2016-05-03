@@ -264,6 +264,26 @@ body {
 div.prompt { display: none;}
 </style>
 
+<style type="text/css">
+}
+div#notebook{
+margin-top:50px;
+margin-bottom:100px;
+}
+div.cell{
+max-width:55em;
+margin-left:auto;
+margin-right:auto;
+}
+div.input_prompt, div.output_prompt{
+margin-left:-11ex;
+}
+div.input, div.output_wrapper{
+margin-top:1em;
+margin-bottom:1em;
+}
+</style>
+
 
 <!-- Loading mathjax macro -->
 {{ mathjax() }}
