@@ -1,0 +1,9 @@
+These are ROQ empirical interpolants generated for the ROQ paper:
+
+	http://arxiv.org/pdf/1507.03806v1.pdf
+	
+Thus are valid for the beam parameters shown in figure seven.
+
+These EIs can be used to convert maps into rom files to be used with Finesse
+
+Those with 14 in the name are valid up to maxtem 14 and 18 up to maxtem 18.

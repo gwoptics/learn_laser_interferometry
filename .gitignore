@@ -1,0 +1,4 @@
+.ipynb_checkpoints
+.DS_store
+scripts/HTML_conversion/html/
+__pycache__
