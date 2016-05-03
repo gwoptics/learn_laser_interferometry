@@ -1,4 +1,4 @@
-The notebooks found in the subfolders below are all using plane
-electromagnetic waves in the analyses and simulations.
+This directory is all about plane wave analysis. 
+
 
 %%%%TOC_REPLACE%%%%
