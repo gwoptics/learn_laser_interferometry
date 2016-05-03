@@ -1,4 +1,6 @@
-This directory is all about plane wave analysis. 
+Plane waves means that the field is the same in the infinite plane
+perpendicular to the direction of propagation. In this folder we
+exclusively use plane electromagnetic waves.
 
 
 %%%%TOC_REPLACE%%%%
