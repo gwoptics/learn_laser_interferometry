@@ -1,6 +1,6 @@
-
-
-Testing
-
+A Fabry-Perot cavity consists of two mirrors opposite to each other,
+where a laser beam can be resonantly enhanced.  The notebooks in this
+directory uses plane waves to explain and investigate some of the most important
+properties of a Fabry-Perot cavity. 
 
 %%%%TOC_REPLACE%%%%
