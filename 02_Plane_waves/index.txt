@@ -1,6 +1,4 @@
-
-
-Testing
-
+The notebooks found in the subfolders below are all using plane
+electromagnetic waves in the analyses and simulations.
 
 %%%%TOC_REPLACE%%%%
