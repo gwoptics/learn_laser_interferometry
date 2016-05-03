@@ -304,3 +304,6 @@ div.prompt { display: none;}
 <h1 class="course-title">Course: Learn Laser Interferometry</h1>
 <hr />
 
+<div id="page">
+<div id="content900">
+<div class="post">

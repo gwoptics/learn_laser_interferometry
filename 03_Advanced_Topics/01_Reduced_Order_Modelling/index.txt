@@ -1,8 +1,8 @@
+<p>
 This section demonstrates how to use the reduced order modelling features in Finesse and Pykat. These allow for fast computation of higher order mode scattering by producing a very efficient quadrature rule.
-
-More details on this method can be found in the paper <href="http://iopscience.iop.org/article/10.1088/2040-8978/18/2/025604">"Fast simulation of Gaussian-mode scattering for precision interferometry" Brown, et.al. 2016</a>.
-
+</p>
+<p>
+More details on this method can be found in the paper <a href="http://iopscience.iop.org/article/10.1088/2040-8978/18/2/025604">"Fast simulation of Gaussian-mode scattering for precision interferometry" Brown, et.al. 2016</a>.
+</p>
     
-
-
 %%%%TOC_REPLACE%%%%
