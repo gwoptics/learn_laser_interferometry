@@ -165,6 +165,9 @@ try:
                         ofile.write(line)
         
         for f in files:
+            if f.starswith("."):
+                continue
+                
             if f == "index.txt" and curfolder != ".":
                 with open("index.html", "w") as ofile:
                     with fileinput.FileInput(template2_header) as ifile:
