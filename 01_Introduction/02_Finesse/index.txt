@@ -1,9 +1,0 @@
-FINESSE is a frequency domain simulation software for laser
-interferometry, specialised at gravitational wave laser
-interferometry. It is actively being used for commissioning and design
-for gravitational wave detectors. In this folder you find a brief (but
-less brief than this text)
-explanation of what FINESSE is. 
-
-
-%%%%TOC_REPLACE%%%%

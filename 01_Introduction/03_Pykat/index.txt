@@ -1,4 +1,0 @@
-PyKat is a Python wrapper for the simulation software FINESSE. In this
-folder you find introductory material to how to use PyKat. 
-
-%%%%TOC_REPLACE%%%%
