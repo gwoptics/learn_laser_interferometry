@@ -27,7 +27,9 @@ gravitational wave detectors.
 <b>We are in the process of uploading
 material. Expect frequent updates during March and April 2016</b>
 </p>
- 
+
+%%%%TOC_REPLACE%%%% 
+
 <h1>Get started!</h1>
 <p>
 The course is presented as a selection of IPython notebooks
