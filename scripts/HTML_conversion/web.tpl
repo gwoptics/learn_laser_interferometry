@@ -307,9 +307,8 @@ margin-bottom:1em;
 <div id="gwmenu">
 <ul>
 <li><a title="gwoptics start page" href="/">Home</a></li>
-<li><a title="Online material to learn laser interferometry"
-			 href="">Learn</a>
- %%%%TOC_REPLACE%%%%
+%%%%LEARN_REPLACE%%%%
+%%%%TOC_REPLACE%%%%
 </li>
 <li><a title="Games and apps for science outreach" href="/play/">Play</a>
 <ul>

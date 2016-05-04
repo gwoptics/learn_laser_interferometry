@@ -145,7 +145,7 @@ try:
         else:
             cursection = clean_name(curfolder)
             curchapter = clean_name(parfolder)
-        
+            
         if not p.match(curfolder) and curfolder != ".":
             continue
         
@@ -159,6 +159,8 @@ try:
                 for line in ifile:
                     if line.strip() == "%%%%TOC_REPLACE%%%%":
                         ofile.write(make_toc(cwd, os.path.relpath(docwd), _toc))
+                    elif line.strip() == "%%%%LEARN_REPLACE%%%%":
+                        ofile.write("<li><a title='Online material to learn laser interferometry' href='{0}/main.html'>Learn</a>".format(os.path.relpath(docwd)))
                     else:
                         ofile.write(line)
         
@@ -169,6 +171,8 @@ try:
                         for line in ifile:
                             if line.strip() == "%%%%TOC_REPLACE%%%%":
                                 ofile.write(make_toc(cwd, os.path.relpath(docwd), _toc))
+                            elif line.strip() == "%%%%LEARN_REPLACE%%%%":
+                                ofile.write("<li><a title='Online material to learn laser interferometry' href='{0}/main.html'>Learn</a>".format(os.path.relpath(docwd)))
                             else:
                                 ofile.write(line)   
                                                 
