@@ -165,7 +165,7 @@ try:
                         ofile.write(line)
         
         for f in files:
-            if f.starswith("."):
+            if f.startswith("."):
                 continue
                 
             if f == "index.txt" and curfolder != ".":
