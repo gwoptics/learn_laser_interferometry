@@ -1,10 +1,10 @@
 In this directory you find introductory material to IPython/Jupyter Notebook,
 the simulation software FINESSE and its Python wrapper
-PyKat. IPython/Jupyter notebook, is the interface between you and this
+PyKat. IPython/Jupyter notebook is the interface between you and this
 material. FINESSE is a frequency domain simulation software for laser
 interferometry, specialised at gravitational wave laser
 interferometry. It is actively being used for commissioning and design
-of gravitational wave detectors. PyKat is a Python wrapper FINESSE.
+of gravitational wave detectors. 
 
 
 %%%%TOC_REPLACE%%%%
