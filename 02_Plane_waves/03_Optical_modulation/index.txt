@@ -1,7 +1,12 @@
-Modulation is the process of varying one or more properties of a
-waveform. The modulation can be created to transmit information, but
-it can also be created by unwanted noise. Here we handle optical
-modulation imposed on the phase, frequency and amplitude of the laser
-field. 
 
 %%%%TOC_REPLACE%%%%
+
+<hr />
+
+<p>
+Modulation is the process of varying one or more properties of a
+waveform. The modulation can be created to transmit information, or
+it might be created by unwanted noise. Here we discuss optical
+modulation imposed on the phase, frequency and amplitude of the laser
+field. 
+</p>

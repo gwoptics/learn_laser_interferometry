@@ -1,6 +1,17 @@
-Plane waves means that the field is the same in the infinite plane
-perpendicular to the direction of propagation. In this folder we
-exclusively use plane electromagnetic waves.
-
 
 %%%%TOC_REPLACE%%%%
+
+<hr />
+
+<p>
+For developing a basic understanding of an optical system it
+is useful to ignore the shape of the laser beam and of the
+optics. We refer to this method as 'plane wave analysis', ignoring
+the x and y coordinates and evaluating the field only along the
+z-axis.
+</p>
+<p>
+The mathematical description of such systems forms
+a useful basis for developing a full model, including the beam shape,
+later on.
+</p>
