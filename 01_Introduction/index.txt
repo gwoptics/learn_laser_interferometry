@@ -1,4 +1,7 @@
+
+%%%%TOC_REPLACE%%%%
+
+<hr />
 In this directory you find introductory material to IPython/Jupyter Notebook,
 the simulation software FINESSE and its Python wrapper PyKat.
 
-%%%%TOC_REPLACE%%%%

@@ -1,4 +1,6 @@
-Here you find introduction material to IPython/Jupyter notebook, which
-is the interface between you and this material.
 
 %%%%TOC_REPLACE%%%%
+
+<hr />
+Here you find introduction material to IPython/Jupyter notebook, which
+is the interface between you and this material.
