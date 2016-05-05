@@ -1,10 +1,10 @@
 
 <h1 class="title">Learn Laser Interferometry</h1>
-<h2 id="subtitle">(A self-study course on interferometry for
-precision measurements, using IPython notebooks.)</h2>
-<img class="portrait" src="/images/daniel_icon01.png" alt=""/>
-<img class="portrait" src="/images/danielt_icon01.png" alt=""/>
-<img class="portrait" src="/images/andreas_icon01.png" alt=""/>
+<h2 id="subtitle">A self-study course on interferometry for
+precision measurements,<br /> using IPython notebooks.</h2>
+<img class="portrait" src="images/daniel_icon01.png" alt=""/>
+<img class="portrait" src="images/danielt_icon01.png" alt=""/>
+<img class="portrait" src="images/andreas_icon01.png" alt=""/>
 <div class="tportrait">
 Daniel Töyrä<br/>
 Daniel Brown<br/>
@@ -16,19 +16,19 @@ since 2016
 This page provides resources and self-study material on laser
 interferometry. In particular we cover the topics related to the
 use of optical systems for gravitational wave detectors such as
-<a href="http://www.ligo.org">LIGO</a>.
-If you are post-graduate student, an advanced
-undergradaute students or just interested in
-this topic, the following material provides a hands-on
-activities from basic interferometers such as optical
-cavities or to complex systems such as
-gravitational wave detectors.
-<br/>
-<b>We are in the process of uploading
-material. Expect frequent updates during March and April 2016</b>
+<a href="http://www.ligo.org">LIGO</a>. At the same time this
+is a collection of reference examples for using <a
+href="https://www.gwoptics.org/pykat">PyKat</a>.
 </p>
 
+<h2>Table of Contents</h2>
 %%%%TOC_REPLACE%%%% 
+
+<p>
+<b>We are in the process of uploading
+material. Expect frequent updates during summer 2016</b>
+</p>
+
 
 <h1>Get started!</h1>
 <p>
@@ -37,27 +37,25 @@ The course is presented as a selection of IPython notebooks
 run in a web browser. You can interact with the notebooks in two
 ways:</p>
 <ul>
-<li><b>Download the GitHib repository</b>:
+<li><b>View the notebooks as HTML pages</b>:
+If you want to browse the material, or want to
+look up examples, you can use the direct links below to
+find specific topics or the individual notebooks.
+</li>
+<li><b>Download the GitHub repository</b>:
 The complete course is available in the GitHub repository <a href="https://github.com/gwoptics/learn_laser_interferometry">Learn
 Laser Interferometry on GitHub</a>. Follow the instructions in
 GitHub to download a local copy of the repository. In the main folder
 further installation instructions are provided in the file
-<a href="https://github.com/gwoptics/learn_laser_interferometry/blob/master/Introduction.pdf">Introduction.pdf</a>. This requires the
-installation of the certain Python packages but allows you to
-edit the notebooks and do the hands-on tasks.</li>
-<li><b>View the notebooks on GitHub</b>:
-If you want to browse the material before doing the tasks, or
-look up examples later on, you can use the direct links below to
-find the individual notebooks. The notebooks have been organised
-to present an easily browsable reference, start with the
-<a href="https://github.com/gwoptics/learn_laser_interferometry">README
-file</a>.</li>
+<b>Introduction.pdf</b>. This allows you to
+edit the notebooks and do your own simulation tasks.</li>
 </ul>
-<div class="imglinks">
-<img style="margin-right:2em;box-shadow: 5px 5px 5px #888888;" src="/images/interferometry/notebook_screenshot1_thumbnail.png" alt="screenshot of IPython notebooks from this course"/>
-<img style="box-shadow: 5px 5px 5px #888888;" src="/images/interferometry/notebook_screenshot2_thumbnail.png" alt="screenshot of IPython notebooks from this course"/>
+
+<div class="gwimglinks">
+<a href="images/notebook_screenshot1.png"><img style="margin-right:2em;box-shadow: 5px 5px 5px #888888;" src="images/notebook_screenshot1_thumbnail.png" alt="screenshot of IPython notebooks from this course"/></a>
+<a href="images/notebook_screenshot2.png"><img style="box-shadow: 5px 5px 5px #888888;" src="images/notebook_screenshot2_thumbnail.png" alt="screenshot of IPython notebooks from this course"/></a>
 </div>
-<div class="caption">Screen-shots of IPython notebooks from this course.
+<div class="gwcaption">Screen-shots of IPython notebooks from this course.
 </div>
  
 <h2 class="subsection">License</h2>

@@ -122,6 +122,7 @@ if os.path.exists(docwd):
     
 os.mkdir(docwd)
 
+
 ignore = [".git", ".ipynb_checkpoints", "scripts"]
     
 try:
@@ -130,6 +131,7 @@ try:
     _toc = toc.get_toc()
     
     wd = os.getcwd()
+    shutil.copytree(os.path.join(wd,"images"), os.path.join(docwd,"images"))
     
     for (path, folders, files) in os.walk("."):
         

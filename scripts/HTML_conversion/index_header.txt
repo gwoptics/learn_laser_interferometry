@@ -5,8 +5,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
+
+h1, h2 {
+		font-weight: normal;
+}
+
 #gwwrapper {
-    margin: 0;
+    margin:-30;
     padding: 0;
 }
 
@@ -234,6 +239,60 @@ h1.course-title {
 #gwlegal a {
     font-weight: normal;
     color: #1B75A9;
+}
+
+.gwimglinks {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gwcaption {
+    color: #6C6C6C;
+		width:80%;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+    border: 1px hidden #FFFFFF;
+}
+img.portrait {
+    float: right;
+    margin-right: 20px;
+    border: 1px hidden #000000;
+}
+.tportrait {
+    text-align: right;
+    font-style:italic;
+    font-size: 12px;
+    float: right;	
+    color: #5C5C5C;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border: 1px hidden #000000;
+}
+a {
+    color: #1B75A9;
+    text-decoration: none;
+}
+a:hover, a:active {
+    text-decoration: none;
+    color: #00A0C0;
+}
+a:visited {
+    color: #1B75A9;
+}
+a.new:after {
+    content: "new";
+    color: #FF0000;
+    font-style: italic;
+    margin-left:5px;
+}
+a.new:hover, a.new:active {
+    text-decoration: none;
+    color: #00A0C0;
 }
 </style>
 
