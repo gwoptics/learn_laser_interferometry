@@ -162,7 +162,7 @@ try:
                     if line.strip() == "%%%%TOC_REPLACE%%%%":
                         ofile.write(make_toc(cwd, os.path.relpath(docwd), _toc))
                     elif line.strip() == "%%%%LEARN_REPLACE%%%%":
-                        ofile.write("<li><a title='Online material to learn laser interferometry' href='{0}/main.html'>Learn</a>".format(os.path.relpath(docwd)))
+                        ofile.write("<li><a title='Online material to learn laser interferometry' href='{0}/index.html'>Learn</a>".format(os.path.relpath(docwd)))
                     else:
                         ofile.write(line)
         
@@ -177,7 +177,7 @@ try:
                             if line.strip() == "%%%%TOC_REPLACE%%%%":
                                 ofile.write(make_toc(cwd, os.path.relpath(docwd), _toc))
                             elif line.strip() == "%%%%LEARN_REPLACE%%%%":
-                                ofile.write("<li><a title='Online material to learn laser interferometry' href='{0}/main.html'>Learn</a>".format(os.path.relpath(docwd)))
+                                ofile.write("<li><a title='Online material to learn laser interferometry' href='{0}/index.html'>Learn</a>".format(os.path.relpath(docwd)))
                             else:
                                 ofile.write(line)   
                                                 
@@ -197,13 +197,13 @@ try:
             
             elif f == "main.txt" and curfolder == ".":
                 
-                with open("main.html", "w") as ofile:
+                with open("index.html", "w") as ofile:
                     with fileinput.FileInput(template2_header) as ifile:
                         for line in ifile:
                             if line.strip() == "%%%%TOC_REPLACE%%%%":
                                 ofile.write(make_toc(cwd, os.path.relpath(docwd), _toc))
                             elif line.strip() == "%%%%LEARN_REPLACE%%%%":
-                                ofile.write("<li><a title='Online material to learn laser interferometry' href='{0}/main.html'>Learn</a>".format(os.path.relpath(docwd)))
+                                ofile.write("<li><a title='Online material to learn laser interferometry' href='{0}/index.html'>Learn</a>".format(os.path.relpath(docwd)))
                             else:
                                 ofile.write(line)   
                         
