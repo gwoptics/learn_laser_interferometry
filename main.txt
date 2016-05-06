@@ -1,0 +1,89 @@
+
+<h1 class="title">Learn Laser Interferometry</h1>
+<h2 id="subtitle">A self-study course on interferometry for
+precision measurements,<br /> using IPython notebooks.</h2>
+<img class="portrait" src="images/daniel_icon01.png" alt=""/>
+<img class="portrait" src="images/danielt_icon01.png" alt=""/>
+<img class="portrait" src="images/andreas_icon01.png" alt=""/>
+<div class="tportrait">
+Daniel Töyrä<br/>
+Daniel Brown<br/>
+Andreas Freise<br/>
+and others <br/>
+since 2016
+</div>
+<p>
+This page provides resources and self-study material on laser
+interferometry. In particular we cover the topics related to the
+use of optical systems for gravitational wave detectors such as
+<a href="http://www.ligo.org">LIGO</a>. At the same time this
+is a collection of reference examples for using <a
+href="https://www.gwoptics.org/pykat">PyKat</a>.
+</p>
+
+<h2>Table of Contents</h2>
+%%%%TOC_REPLACE%%%% 
+
+<p>
+<b>We are in the process of uploading
+material. Expect frequent updates during summer 2016</b>
+</p>
+
+
+<h1>Get started!</h1>
+<p>
+The course is presented as a selection of IPython notebooks
+(or Jupyter notebooks), interactive Python notebooks that
+run in a web browser. You can interact with the notebooks in two
+ways:</p>
+<ul>
+<li><b>View the notebooks as HTML pages</b>:
+If you want to browse the material, or want to
+look up examples, you can use the direct links below to
+find specific topics or the individual notebooks.
+</li>
+<li><b>Download the GitHub repository</b>:
+The complete course is available in the GitHub repository <a href="https://github.com/gwoptics/learn_laser_interferometry">Learn
+Laser Interferometry on GitHub</a>. Follow the instructions in
+GitHub to download a local copy of the repository. In the main folder
+further installation instructions are provided in the file
+<b>Introduction.pdf</b>. This allows you to
+edit the notebooks and do your own simulation tasks.</li>
+</ul>
+
+<div class="gwimglinks">
+<a href="images/notebook_screenshot1.png"><img style="margin-right:2em;box-shadow: 5px 5px 5px #888888;" src="images/notebook_screenshot1_thumbnail.png" alt="screenshot of IPython notebooks from this course"/></a>
+<a href="images/notebook_screenshot2.png"><img style="box-shadow: 5px 5px 5px #888888;" src="images/notebook_screenshot2_thumbnail.png" alt="screenshot of IPython notebooks from this course"/></a>
+</div>
+<div class="gwcaption">Screen-shots of IPython notebooks from this course.
+</div>
+ 
+<h2 class="subsection">License</h2>
+<p>
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a><br/><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Learn Laser Interferometry</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.gwoptics.org/learn_laser_interferometry/" property="cc:attributionName" rel="cc:attributionURL">D. Toyra,
+D. Brown and A. Freise</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+Attribution 4.0 International License</a>. The code is also made
+available under the
+<a href="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU General
+Public License (GPLv3)</a>.
+</p>
+<p>
+Permissions beyond the scope of this license may be available via <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.gwoptics.org/contact/" rel="cc:morePermissions">http://www.gwoptics.org/contact/</a>.
+</p>
+<h2 class="subsection">About the course</h2>
+<p>
+At the <a href="http://www.sr.bham.ac.uk/gwgroup/">Gravitational Wave
+Group</a> in Birmingham, UK, we work on the optical design and
+technologies of the laser interferometers for gravitational wave
+detection. For example, we led the optical design
+of the <a href="http://www.gwoptics.org/research/et/">Einstein
+Telescope</a>, the Optical Simulation and Design group towards
+the first baseline design of
+Advanced Virgo
+and are contributing
+to the Advanced Interferometer Configurations group of
+the LIGO Scientific Collaboration.
+In this course we combine material we have used in the past to
+train our graduate students starting in this field, for example as part of the <a href="http://www.grawiton-gw.eu/">GraWIToN
+training network</a>.<br/>
+</p>

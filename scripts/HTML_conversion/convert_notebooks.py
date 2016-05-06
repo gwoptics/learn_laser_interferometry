@@ -39,14 +39,14 @@ def make_toc(wdir, relpath, _toc):
         i += 1
         
         path = doc_path(relpath, i, chapter)
-        rtn += " <li class=\"sep\"><a href='{2}'>{0} - {1}</a>".format(i, chapter, path)
+        rtn += " <li class=\"sep\"><a href='{2}'>{0} {1}</a>".format(i, chapter, path)
         rtn += "  <ul>"
     
         for j, section in enumerate(_toc[chapter]):
             j += 1
             
             path = doc_path(relpath, i, chapter, j, section)
-            rtn += "   <li class=\"sep\"><a href='{2}'>{0} - {1}</a></li>".format(j, section, path)
+            rtn += "   <li class=\"sep\"><a href='{3}'>{0}.{1} {2}</a></li>".format(i, j, section, path)
             
         rtn += "  </ul>"        
         rtn += " </li>"
@@ -57,17 +57,18 @@ def make_toc(wdir, relpath, _toc):
     
 def make_chapter_toc(_chapter, wdir, relpath, _toc):
     rtn = ""
-    rtn += "<ul>"
     
     for i, chapter in enumerate(_toc):
         i += 1
-        
+
         if chapter == _chapter:
+            rtn += "<h2>{0} {1}</h2>".format(i,chapter)
+            rtn += "<ul style=\"list-style-type: none;\">"
             for j, section in enumerate(_toc[chapter]):
                 j += 1
             
                 path = doc_path(relpath, i, chapter, j, section)
-                rtn += "   <li class=\"sep\"><a href='{2}'>{0} - {1}</a></li>".format(j, section, path)
+                rtn += "   <li class=\"sep\"><a href='{3}'>{0}.{1} {2}</a></li>".format(i, j, section, path)
             
     
     rtn += "</ul>"      
@@ -77,21 +78,23 @@ def make_chapter_toc(_chapter, wdir, relpath, _toc):
     
 def make_section_toc(_chapter, _section, wdir, relpath, _toc):
     rtn = ""
-    rtn += "<ul>"
     
     for i, chapter in enumerate(_toc):
         i += 1
         
         if chapter == _chapter:
+            rtn += "<h2>{0} {1}</h2>".format(i,chapter)
             for j, section in enumerate(_toc[chapter]):
                 j += 1
                 
                 if section == _section:
+                    rtn += "<h3>{0}.{1} {2}</h3>".format(i,j,section)
+                    rtn += "<ul style=\"list-style-type: none;\">"
                     for k, notebook in enumerate(_toc[chapter][section]):
                         k += 1
                         
                         path = doc_path(relpath, i, chapter, j, section, k, notebook)
-                        rtn += "   <li class=\"sep\"><a href='{2}'>{0} - {1}</a></li>".format(k, notebook, path)
+                        rtn += "   <li class=\"sep\"><a href='{4}'>{0}.{1}.{2} {3}</a></li>".format(i,j,k, notebook, path)
                         
                     
             
@@ -119,6 +122,7 @@ if os.path.exists(docwd):
     
 os.mkdir(docwd)
 
+
 ignore = [".git", ".ipynb_checkpoints", "scripts"]
     
 try:
@@ -127,6 +131,7 @@ try:
     _toc = toc.get_toc()
     
     wd = os.getcwd()
+    shutil.copytree(os.path.join(wd,"images"), os.path.join(docwd,"images"))
     
     for (path, folders, files) in os.walk("."):
         
@@ -142,11 +147,12 @@ try:
         else:
             cursection = clean_name(curfolder)
             curchapter = clean_name(parfolder)
-        
-        if not p.match(curfolder):
+            
+        if not p.match(curfolder) and curfolder != ".":
             continue
         
-        os.mkdir(os.path.join(docwd, path))
+        if not os.path.exists(os.path.join(docwd, path)):
+            os.mkdir(os.path.join(docwd, path))
 
         os.chdir(os.path.join(docwd, path))
         
@@ -155,17 +161,23 @@ try:
                 for line in ifile:
                     if line.strip() == "%%%%TOC_REPLACE%%%%":
                         ofile.write(make_toc(cwd, os.path.relpath(docwd), _toc))
+                    elif line.strip() == "%%%%LEARN_REPLACE%%%%":
+                        ofile.write("<li><a title='Online material to learn laser interferometry' href='{0}/index.html'>Learn</a>".format(os.path.relpath(docwd)))
                     else:
                         ofile.write(line)
-
+        
         for f in files:
-            
-            if f == "index.txt":
+            if f.startswith("."):
+                continue
+                
+            if f == "index.txt" and curfolder != ".":
                 with open("index.html", "w") as ofile:
                     with fileinput.FileInput(template2_header) as ifile:
                         for line in ifile:
                             if line.strip() == "%%%%TOC_REPLACE%%%%":
                                 ofile.write(make_toc(cwd, os.path.relpath(docwd), _toc))
+                            elif line.strip() == "%%%%LEARN_REPLACE%%%%":
+                                ofile.write("<li><a title='Online material to learn laser interferometry' href='{0}/index.html'>Learn</a>".format(os.path.relpath(docwd)))
                             else:
                                 ofile.write(line)   
                                                 
@@ -182,16 +194,41 @@ try:
                     with fileinput.FileInput(template2_footer) as ifile:
                         for line in ifile:
                             ofile.write(line)
+            
+            elif f == "main.txt" and curfolder == ".":
+                
+                with open("index.html", "w") as ofile:
+                    with fileinput.FileInput(template2_header) as ifile:
+                        for line in ifile:
+                            if line.strip() == "%%%%TOC_REPLACE%%%%":
+                                ofile.write(make_toc(cwd, os.path.relpath(docwd), _toc))
+                            elif line.strip() == "%%%%LEARN_REPLACE%%%%":
+                                ofile.write("<li><a title='Online material to learn laser interferometry' href='{0}/index.html'>Learn</a>".format(os.path.relpath(docwd)))
+                            else:
+                                ofile.write(line)   
+                        
+                    with fileinput.FileInput(os.path.join(wd,path,f)) as ifile:
+                        for line in ifile:
+                            if line.strip() == "%%%%TOC_REPLACE%%%%":   
+                                ofile.write(make_toc(cwd, os.path.relpath(docwd), _toc))
+                            else:
+                                ofile.write(line)
+        
+                    with fileinput.FileInput(template2_footer) as ifile:
+                        for line in ifile:
+                            ofile.write(line)
                             
-            elif not f.endswith(".ipynb"):
+            elif not f.endswith(".ipynb") and curfolder != ".":
                 shutil.copy(os.path.join(wd, path, f), ".")
                 
-            else:
+            elif curfolder != ".":
                 # convert notebook to HTML
                 shutil.copy(os.path.join(wd, path, f), ".")
                 
-                subprocess.call(["jupyter", "nbconvert", f, "--to", "HTML", "--template", "web_changed.tpl"])
-                #subprocess.call(["jupyter-nbconvert3.4", f, "--to", "HTML", "--template", "web_changed.tpl"])
+                try:
+                    subprocess.call(["jupyter", "nbconvert", f, "--to", "HTML", "--template", "web_changed.tpl"])
+                except FileNotFoundError:
+                    subprocess.call(["jupyter-nbconvert-3.4", f, "--to", "HTML", "--template", "web_changed.tpl"])
                 
                 # clean up
                 os.remove(f)
