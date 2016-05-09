@@ -1,6 +1,10 @@
 
-
-Testing
-
-
 %%%%TOC_REPLACE%%%%
+
+<hr />
+
+<p>
+Demodulation is the process of extracting a signal encoded on a
+waveform by modulation. Demodulation can be used to read out
+transmitted information, as well as to quantify unwanted noise.
+</p>
