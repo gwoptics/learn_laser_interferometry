@@ -4,8 +4,6 @@
 	   * 1.1.2 - [Finesse](https://github.com/gwoptics/learn_laser_interferometry/blob/master/01_Introduction/01_Getting_Started/02_Finesse.ipynb)
 	   * 1.1.3 - [Pykat](https://github.com/gwoptics/learn_laser_interferometry/blob/master/01_Introduction/01_Getting_Started/03_Pykat.ipynb)
 	   * 1.1.4 - [Plotting examples](https://github.com/gwoptics/learn_laser_interferometry/blob/master/01_Introduction/01_Getting_Started/04_Plotting_examples.ipynb)
-	 * 1.2 - Finesse
-	 * 1.3 - Pykat
 * 2 - Plane waves
 	 * 2.1 - Fabry Perot cavity
 	   * 2.1.1 - [Resonance](https://github.com/gwoptics/learn_laser_interferometry/blob/master/02_Plane_waves/01_Fabry_Perot_cavity/01_Resonance.ipynb)
