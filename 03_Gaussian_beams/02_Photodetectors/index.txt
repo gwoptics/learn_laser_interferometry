@@ -1,0 +1,12 @@
+
+%%%%TOC_REPLACE%%%%
+
+<hr />
+
+<p>
+Here, we learn how to use photodetectors that take the spatial
+distribution of the beam into accout. Particularly, split
+photodetectors are useful for sensing the misalignment of a
+Guassian beam by subtracting the signals detected at the two
+segments of the photodetector. 
+</p>

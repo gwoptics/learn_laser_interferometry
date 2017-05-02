@@ -1,0 +1,16 @@
+
+%%%%TOC_REPLACE%%%%
+
+<hr />
+
+<p>
+The transverse spatial distribution of a beam is introduced,
+that is, the amplitude and phase of the beam are no longer
+constant in the plane perpendicual to the optical axis. This
+plane is spanned by the x and y-axes. 
+</p>
+<p>
+In Finesse the spatial distributions are described by
+Hermite-Gaussian (defualt) or Laguerre-Gaussian
+functions.
+</p>

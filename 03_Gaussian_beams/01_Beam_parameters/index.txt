@@ -1,0 +1,13 @@
+
+%%%%TOC_REPLACE%%%%
+
+<hr />
+
+<p>
+A Gaussian beam can be uniquely described by the waist size and
+waist position of the beam. Here, we investigate these important
+beam parameters as well as other useful derived parameters such
+as the radius of curvature of the phase front, the Rayleigh range,
+and the diffraction angle, and we learn how to obtain these
+parameters from Finesse.
+</p>

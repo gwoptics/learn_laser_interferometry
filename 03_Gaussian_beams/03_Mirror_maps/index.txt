@@ -1,0 +1,10 @@
+
+%%%%TOC_REPLACE%%%%
+
+<hr />
+
+<p>
+Mirror surface maps can be used to simulate realistic optics,
+accounting for optical defects such as deviations in surface height,
+and absorption. 
+</p>
