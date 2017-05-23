@@ -14,7 +14,7 @@
    viewBox="0 0 1032.5567 298.52373"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.0 r"
    sodipodi:docname="finesse_outline.svg">
   <defs
      id="defs4">
@@ -133,7 +133,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.61386574"
-     inkscape:cx="663.3162"
+     inkscape:cx="392.89876"
      inkscape:cy="130.87741"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -156,7 +156,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -210,34 +210,16 @@
            height="89.596138"
            x="211.77269"
            y="162.9169" /></flowRegion><flowPara
-         id="flowPara4960" /></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4962"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(233.93424,106.22587)"><flowRegion
-         id="flowRegion4964"><rect
-           id="rect4966"
-           width="311.14294"
-           height="164.5311"
-           x="190.59543"
-           y="105.90118"
-           style="text-align:center;text-anchor:middle;fill:#ffffff" /></flowRegion><flowPara
-         id="flowPara4968"
-         style="font-size:35px">Finesse Binary</flowPara><flowPara
-         style="font-size:35px"
-         id="flowPara4367" /><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:62.5px;font-family:Consolas;-inkscape-font-specification:Consolas"
-         id="flowPara4359">kat</flowPara></flowRoot>    <text
+         id="flowPara4960" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="569.203"
        y="244.86307"
-       id="text4361"
-       sodipodi:linespacing="125%"><tspan
+       id="text4361"><tspan
          sodipodi:role="line"
          id="tspan4363"
          x="569.203"
-         y="244.86307"></tspan><tspan
+         y="244.86307" /><tspan
          sodipodi:role="line"
          x="569.203"
          y="294.86307"
@@ -272,22 +254,34 @@
        id="path4382"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
-    <flowRoot
-       transform="translate(-175.82296,208.32638)"
+    <text
+       xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="flowRoot4384"
-       xml:space="preserve"><flowRegion
-         id="flowRegion4386"><rect
-           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1"
-           y="105.90118"
-           x="190.59543"
-           height="164.5311"
-           width="311.14294"
-           id="rect4388" /></flowRegion><flowPara
-         id="flowPara4394"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:sans-serif;-inkscape-font-specification:Consolas;fill:#000000;fill-opacity:1">Finesse</flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:sans-serif;-inkscape-font-specification:Consolas;fill:#000000;fill-opacity:1"
-         id="flowPara4400">file</flowPara></flowRoot>    <path
+       x="161.99442"
+       y="349.6174"
+       id="text9446"><tspan
+         sodipodi:role="line"
+         x="161.99442"
+         y="349.6174"
+         id="tspan9440"><tspan
+           x="161.99442"
+           y="349.6174"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:sans-serif;-inkscape-font-specification:Consolas;fill:#000000;fill-opacity:1"
+           id="tspan9436">Finesse</tspan><tspan
+           dx="0"
+           x="291.19363"
+           y="349.6174"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:sans-serif;-inkscape-font-specification:Consolas;fill:#000000;fill-opacity:1"
+           id="tspan9438" /></tspan><tspan
+         sodipodi:role="line"
+         x="199.96805"
+         y="400.91623"
+         id="tspan9444"><tspan
+           x="199.96805"
+           y="400.91623"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:sans-serif;-inkscape-font-specification:Consolas;fill:#000000;fill-opacity:1"
+           id="tspan9442">file</tspan></tspan></text>
+    <path
        inkscape:connector-curvature="0"
        id="path4402"
        d="m 296.27188,290.96629 93.30322,0"
@@ -322,22 +316,70 @@
        id="path4416"
        d="m 915.38384,288.05678 147.12796,0"
        style="fill:none;fill-rule:evenodd;stroke:#828282;stroke-width:4.0999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <flowRoot
+    <text
        xml:space="preserve"
-       id="flowRoot4418"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(646.17704,192.32638)"><flowRegion
-         id="flowRegion4420"><rect
-           id="rect4422"
-           width="311.14294"
-           height="164.5311"
-           x="190.59543"
-           y="105.90118"
-           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1" /></flowRegion><flowPara
-         id="flowPara4426"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:sans-serif;-inkscape-font-specification:Consolas;fill:#000000;fill-opacity:1">Output</flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:sans-serif;-inkscape-font-specification:Consolas;fill:#000000;fill-opacity:1"
-         id="flowPara4430">text</flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:sans-serif;-inkscape-font-specification:Consolas;fill:#000000;fill-opacity:1"
-         id="flowPara4432">file</flowPara></flowRoot>  </g>
+       style="font-style:normal;font-weight:normal;font-size:32.42725754px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.81068146px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="991.60938"
+       y="333.41721"
+       id="text9464"><tspan
+         sodipodi:role="line"
+         x="991.60938"
+         y="333.41721"
+         id="tspan9452"
+         style="stroke-width:0.81068146px"><tspan
+           x="991.60938"
+           y="333.41721"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.37385178px;font-family:sans-serif;-inkscape-font-specification:Consolas;fill:#000000;fill-opacity:1;stroke-width:0.81068146px"
+           id="tspan9448">Output</tspan><tspan
+           dx="0"
+           x="1090.2528"
+           y="333.41721"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.37385178px;font-family:sans-serif;-inkscape-font-specification:Consolas;fill:#000000;fill-opacity:1;stroke-width:0.81068146px"
+           id="tspan9450" /></tspan><tspan
+         sodipodi:role="line"
+         x="1012.8898"
+         y="375.00421"
+         id="tspan9458"
+         style="stroke-width:0.81068146px"><tspan
+           x="1012.8898"
+           y="375.00421"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.37385178px;font-family:sans-serif;-inkscape-font-specification:Consolas;fill:#000000;fill-opacity:1;stroke-width:0.81068146px"
+           id="tspan9454">text</tspan><tspan
+           dx="0"
+           x="1068.9724"
+           y="375.00421"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.37385178px;font-family:sans-serif;-inkscape-font-specification:Consolas;fill:#000000;fill-opacity:1;stroke-width:0.81068146px"
+           id="tspan9456" /></tspan><tspan
+         sodipodi:role="line"
+         x="1019.3459"
+         y="416.59122"
+         id="tspan9462"
+         style="stroke-width:0.81068146px"><tspan
+           x="1019.3459"
+           y="416.59122"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.37385178px;font-family:sans-serif;-inkscape-font-specification:Consolas;fill:#000000;fill-opacity:1;stroke-width:0.81068146px"
+           id="tspan9460">file</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:23.4375px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="443.29327"
+       y="231.23997"
+       id="text9430"><tspan
+         sodipodi:role="line"
+         id="tspan9428"
+         x="443.29327"
+         y="231.23997"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.9375px">Finesse binary</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:23.4375px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="543.28815"
+       y="320.86136"
+       id="text9434"><tspan
+         sodipodi:role="line"
+         id="tspan9432"
+         x="543.28815"
+         y="320.86136"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.9375px">KAT</tspan></text>
+  </g>
 </svg>
