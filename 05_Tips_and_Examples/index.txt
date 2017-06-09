@@ -1,0 +1,8 @@
+
+%%%%TOC_REPLACE%%%%
+
+<hr />
+
+<p>
+In this directory you will find notebooks on general tips and examples for using pykat and Finesse.
+</p>
