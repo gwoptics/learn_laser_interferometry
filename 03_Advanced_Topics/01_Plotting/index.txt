@@ -1,0 +1,8 @@
+
+%%%%TOC_REPLACE%%%%
+
+<hr />
+
+<p>
+In this directory you will find notebooks on doing more advanced plots with pykat and Finesse.
+</p>

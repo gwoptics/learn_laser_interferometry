@@ -1,0 +1,8 @@
+
+%%%%TOC_REPLACE%%%%
+
+<hr />
+
+<p>
+In this directory you will find notebooks on doing more advanced simulations and tasks with pykat and Finesse.
+</p>
