@@ -25,10 +25,21 @@ href="https://www.gwoptics.org/pykat">PyKat</a>.
 %%%%TOC_REPLACE%%%% 
 
 <p>
-<b>We are in the process of uploading
-material. Expect frequent updates during summer 2016</b>
+Notebooks generated from this course have been used for in-person
+teaching in a several workshops. You can find and download the
+material from some of these workshops on dedicated pages:
+<ul>
+	<li>
+<a href="http://www.gwoptics.org/learn/schools/St_Andrews_2017/">Simulation
+Workshop at the 73rd Scottish Universities Summer School in
+Physics (2017)</a>, </li>
+<li><a href="http://www.gwoptics.org/learn/schools/Beijing_2017/">2017
+Beijing Normal University Summer School - Gravitational Waves</a>, </li>
+<li><a href="http://www.gwoptics.org/learn/schools/IUCAA_2016/">
+ Optics simulation workshop at the `LIGO-India: The road ahead' meeting
+2016</a>.</li>
+</ul>
 </p>
-
 
 <h1>Get started!</h1>
 <p>
