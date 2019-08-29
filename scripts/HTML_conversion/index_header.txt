@@ -1,5 +1,7 @@
 <meta charset="utf-8" />
-<title>04_Modulation_by_moving_mirror | Learn Laser Interferometry</title>
+<title>
+%%%%TITLE_REPLACE%%%%
+| Learn Laser Interferometry</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -330,6 +332,7 @@ div.prompt { display: none;}
 </li>
 <li><a title="Games and apps for science outreach" href="http://www.gwoptics.org/play/">Play</a>
 <ul>
+	<li class="sep"><a href="/play/">Play Home</a></li>
 	<li class="sep"><a target="_blank" href="https://www.laserlabs.org">Laser Labs</a></li>
 	<li class="sep"><a target="_blank" href="https://www.laserlabs.org/pocketblackhole.php">Pocket Black Hole</a></li>
 	<li><a target="_blank" href="https://www.laserlabs.org/stretchandsquash.php">Stretch and Squash</a></li>
@@ -341,8 +344,11 @@ div.prompt { display: none;}
 </li>
 <li><a title="Optical simulations and software tools" href="http://www.gwoptics.org/research/">Simulations</a>
 <ul>
+	<li class="sep"><a href="/research/">Simulation Home</a></li>
 	<li class="sep"><a href="http://www.gwoptics.org/finesse">Finesse Main Page</a></li>
-	<li><a href="http://www.gwoptics.org/finesse/reference">Finesse Syntax</a></li>
+	<li><a href="http://www.gwoptics.org/finesse/reference">Finesse
+	Syntax</a></li>
+	<li><a href="/finesse/reference/cheatsheet.php">Finesse Cheatsheet (FAQ)</a></li>
 	<li class="sep"><a href="http://www.gwoptics.org/pykat">PyKat Main Page</a></li>
 	<li class="sep"><a href="http://www.gwoptics.org/simtools">Simtools (Matlab)</a></li>
 	<li><a href="http://www.gwoptics.org/ComponentLibrary">ComponentLibrary</a></li>
