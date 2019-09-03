@@ -1,0 +1,9 @@
+
+%%%%TOC_REPLACE%%%%
+
+<hr />
+
+<p>
+In this directory you will find notebooks on miscellaneous topics,
+such as optimisation and cross-checking.
+</p>
