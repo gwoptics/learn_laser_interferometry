@@ -6,7 +6,7 @@
 <head>
 {%- block header -%}
 <meta charset="utf-8" />
-<title>{{resources['metadata']['name']}} | Learn Laser Interferometry</title>
+<title>{{resources['metadata']['name']}} | Learn Laser Interferometry with Finesse</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -20,13 +20,13 @@
 #gwheader {
     width: 920px;
     margin: 0 auto;
-		height: 30px;
+	height: 30px;
 }
 
 #gwpage {
     width: 920px;
     background: #FFFFFF;
-		margin: 0px auto;
+	margin: 0px auto;
     border: 10px #FFFFFF solid;
 }
 
@@ -44,8 +44,9 @@ h1.course-title {
     float: left;
     width: 920px;
     height: 52px;
-		background: #dbdbdb;
+	background: #dbdbdb;
     border: 10px #FFFFFF solid;
+    z-index: 9999999;
 }
 
 #gwmenu ul {
@@ -53,21 +54,23 @@ h1.course-title {
     padding: 6px 0 0 20px;
     list-style: none;
     line-height: normal;
-		border: none;
+	border: none;
+    z-index: 9999999;
 }
 
 #gwmenu li {
     float: left;
     text-align: center;
-		border: none;
+	border: none;
+    z-index: 9999999;
 }
 
 #gwmenu li:hover {
-		background:#bbbbbb;
+	background:#bbbbbb;
 }
 
 #gwmenu li.last:hover { 
-		background:#dbdbdb;
+	background:#dbdbdb;
 }
 
 
@@ -340,6 +343,7 @@ MathJax = {
 </li>
 <li><a title="Games and apps for science outreach" href="/play/">Play</a>
 <ul>
+	<li class="sep"><a href="/play/">Play Home</a></li>
 	<li class="sep"><a target="_blank" href="https://www.laserlabs.org">Laser Labs</a></li>
 	<li class="sep"><a target="_blank" href="https://www.laserlabs.org/pocketblackhole.php">Pocket Black Hole</a></li>
 	<li><a target="_blank" href="https://www.laserlabs.org/stretchandsquash.php">Stretch and Squash</a></li>
@@ -351,6 +355,7 @@ MathJax = {
 </li>
 <li><a title="Optical simulations and software tools" href="/research/">Simulations</a>
 <ul>
+	<li class="sep"><a href="/research/">Simulation Home</a></li>
 	<li class="sep"><a href="/finesse">Finesse Main Page</a></li>
 	<li><a href="/finesse/reference">Finesse Syntax</a></li>
 	<li class="sep"><a href="/pykat">PyKat Main Page</a></li>
@@ -369,7 +374,7 @@ MathJax = {
 </div>
 
 <div id="gwpage">
-<h1 class="course-title">Course: Learn Laser Interferometry</h1>
+<h1 class="course-title">Course: Learn Laser Interferometry with Finesse</h1>
 <hr />
 {{ super() }}
 

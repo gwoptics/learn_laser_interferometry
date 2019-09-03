@@ -365,7 +365,7 @@ div.prompt { display: none;}
 </div>
 
 <div id="gwpage">
-<h1 class="course-title">Course: Learn Laser Interferometry</h1>
+<h1 class="course-title">Course: Learn Laser Interferometry with Finesse</h1>
 <hr />
 
 <div id="gwcontent900">

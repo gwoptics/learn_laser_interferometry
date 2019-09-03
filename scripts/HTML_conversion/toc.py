@@ -14,6 +14,7 @@ def get_toc():
 	toc = OrderedDict()
 
 	chapter_paths = [folder for folder in os.listdir() if p.match(folder)]
+	chapter_paths.sort()
 
 	for chapter in chapter_paths:
 		if os.path.isdir(chapter):
@@ -24,6 +25,7 @@ def get_toc():
 			toc[cname] = OrderedDict()
 	
 			section_paths = [folder for folder in os.listdir() if p.match(folder)]
+			section_paths.sort()
 	
 			for section in section_paths:
 				if os.path.isdir(section):
@@ -31,7 +33,10 @@ def get_toc():
 	
 					sname = clean_name(section)
 	
-					toc[cname][sname] = [clean_name(folder) for folder in os.listdir() if p.match(folder)]
+					tfiles = [folder for folder in os.listdir() if p.match(folder)]
+					tfiles.sort()
+					print(tfiles)
+					toc[cname][sname] = [clean_name(folder) for folder in tfiles]
 	
 					os.chdir("..")
 	

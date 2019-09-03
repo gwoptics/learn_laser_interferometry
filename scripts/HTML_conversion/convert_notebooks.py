@@ -10,6 +10,33 @@ import toc
 
 clean_name = lambda x: x[3:].replace("_", " ").replace(".ipynb", "")
 
+# Walk into directories in filesystem
+# Ripped from os module and slightly modified
+# for alphabetical sorting
+#
+def sortedWalk(top, topdown=True, onerror=None):
+    from os.path import join, isdir, islink
+ 
+    names = os.listdir(top)
+    names.sort()
+    dirs, nondirs = [], []
+ 
+    for name in names:
+        if isdir(os.path.join(top, name)):
+            dirs.append(name)
+        else:
+            nondirs.append(name)
+ 
+    if topdown:
+        yield top, dirs, nondirs
+    for name in dirs:
+        path = join(top, name)
+        if not os.path.islink(path):
+            for x in sortedWalk(path, topdown, onerror):
+                yield x
+    if not topdown:
+        yield top, dirs, nondirs
+
 def doc_path(relpath, i, chapter, j=None, section=None, k=None, notebook=None):
 
 	chapter = chapter.replace(" ", "_")
@@ -33,7 +60,7 @@ def doc_path(relpath, i, chapter, j=None, section=None, k=None, notebook=None):
 def make_toc(wdir, relpath, _toc):
 	
 	rtn = ""
-	rtn += "<ul>"
+	rtn += "<ul><li class=\"sep\"><a title='Online material to learn laser interferometry with Finesse' href='{0}/index.html'>Learn Home</a></li>".format(relpath)
 	
 	for i, chapter in enumerate(_toc):
 		i += 1
@@ -134,13 +161,14 @@ try:
 	shutil.copytree(os.path.join(wd,"images"), os.path.join(docwd,"images"))
 	
 	for (path, folders, files) in os.walk("."):
-		
+		#for (path, folders, files) in sortedWalk("."):
+		folders.sort()
+		files.sort()
 		if any(i in path for i in ignore):
 			continue
-	
 		(parent, curfolder) = os.path.split(path)
 		parfolder = os.path.split(parent)[1]
-		
+		print("** Current Folder : {}".format(curfolder))
 		if parfolder == ".":
 			cursection = None
 			curchapter = clean_name(curfolder)
@@ -162,8 +190,7 @@ try:
 					if line.strip() == "%%%%TOC_REPLACE%%%%":
 						ofile.write(make_toc(cwd, os.path.relpath(docwd), _toc))
 					elif line.strip() == "%%%%LEARN_REPLACE%%%%":
-						ofile.write("<li><a title='Online material to learn laser interferometry' href='{0}/index.html'>Learn</a>".format(os.path.relpath(docwd)))
-						ofile.write("<ul><li class='sep'><a href='{0}/index.html'>Learn Home</a>  <ul>".format(os.path.relpath(docwd)))
+						ofile.write("<li><a title='Online material to learn laser interferometry with Finesse' href='{0}/index.html'>Learn</a>\n".format(os.path.relpath(docwd)))
 					else:
 						ofile.write(line)
 		
@@ -186,7 +213,7 @@ try:
 							elif line.strip() == "%%%%TOC_REPLACE%%%%":
 								ofile.write(make_toc(cwd, os.path.relpath(docwd), _toc))
 							elif line.strip() == "%%%%LEARN_REPLACE%%%%":
-								ofile.write("<li><a title='Online material to learn laser interferometry' href='{0}/index.html'>Learn</a>".format(os.path.relpath(docwd)))
+								ofile.write("<li><a title='Online material to learn laser interferometry with Finesse' href='{0}/index.html'>Learn</a>".format(os.path.relpath(docwd)))
 							else:
 								ofile.write(line)	
 												
@@ -214,7 +241,7 @@ try:
 							elif line.strip() == "%%%%TOC_REPLACE%%%%":
 								ofile.write(make_toc(cwd, os.path.relpath(docwd), _toc))
 							elif line.strip() == "%%%%LEARN_REPLACE%%%%":
-								ofile.write("<li><a title='Online material to learn laser interferometry' href='{0}/index.html'>Learn</a>".format(os.path.relpath(docwd)))
+								ofile.write("<li><a title='Online material to learn laser interferometry with Finesse' href='{0}/index.html'>Learn</a>".format(os.path.relpath(docwd)))
 							else:
 								ofile.write(line)	
 						

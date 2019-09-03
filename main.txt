@@ -1,7 +1,7 @@
 
 <h1 class="title">Learn Laser Interferometry</h1>
 <h2 id="subtitle">A self-study course on interferometry for
-precision measurements,<br /> using IPython notebooks.</h2>
+precision measurements,<br /> using Python notebooks and <span style="font-variant: small-caps;">Finesse</span>.</h2>
 <img class="portrait" src="images/daniel_icon01.png" alt=""/>
 <img class="portrait" src="images/danielt_icon01.png" alt=""/>
 <img class="portrait" src="images/andreas_icon01.png" alt=""/>
