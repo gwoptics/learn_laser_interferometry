@@ -1,0 +1,9 @@
+    
+%%%%TOC_REPLACE%%%%
+
+<hr />
+
+<p>
+This section contains notebooks demonstrating what the <tt>lock</tt> command in Finesse does, and how to use it.
+</p>
+

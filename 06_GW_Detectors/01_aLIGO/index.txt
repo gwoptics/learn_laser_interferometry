@@ -1,0 +1,16 @@
+    
+%%%%TOC_REPLACE%%%%
+
+<hr />
+
+<p>
+This section demonstrates how you can import and use the Finesse model of aLIGO and 
+associated tools which are included in PyKat.
+</p>
+
+<p>
+If you are interested in working with these, we encourage you to get in touch with 
+the Finesse community via the <a href = https://chat.ligo.org/ligo/channels/finesse> 
+Finesse channel</a> on <a href = https://chat.ligo.org/>chat.ligo.org</a>. We'd love 
+to hear what you're doing, and can provide quick suggestions and advice. 
+</p>

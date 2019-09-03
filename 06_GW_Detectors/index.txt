@@ -1,0 +1,10 @@
+
+%%%%TOC_REPLACE%%%%
+
+<hr />
+
+<p>
+Finesse and PyKat are primarily developed for modelling ground-based interferometric
+gravitational wave detectors. This chapter provides an overview of how to work with 
+the detector models and associated tools that are now included in PyKat. 
+</p>
